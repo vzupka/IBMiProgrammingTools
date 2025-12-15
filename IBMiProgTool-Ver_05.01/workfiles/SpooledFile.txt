@@ -1,0 +1,153 @@
+ 5770WDS V7R5M0  220415 RN        IBM ILE RPG             VZAPI_FREE/B_AUTO        XASSIST    10/25/25 15:47:26        Page      1
+
+  Command  . . . . . . . . . . . . :   CRTBNDRPG
+    Issued by  . . . . . . . . . . :     VZUPKA
+  Program  . . . . . . . . . . . . :   B_AUTO
+    Library  . . . . . . . . . . . :     VZAPI_FREE
+  Text 'description' . . . . . . . :   *SRCMBRTXT
+  Source stream file   . . . . . . :   /home/VZUPKA/RPGLE/B_AUTO.RPGLE
+    CCSID  . . . . . . . . . . . . :     1208
+  Target CCSID . . . . . . . . . . :   *JOB (870)
+  Text 'description' . . . . . . . :
+  Last Change  . . . . . . . . . . :   09/08/25  07:05:24
+
+  Generation severity level  . . . :   10
+  Default activation group . . . . :   *YES
+  Compiler options . . . . . . . . :   *XREF      *GEN       *NOSECLVL  *SHOWCPY
+                                       *EXPDDS    *EXT       *NOSHOWSKP *NOSRCSTMT
+                                       *DEBUGIO   *UNREF     *NOEVENTF
+  Debugging views  . . . . . . . . :   *ALL
+  Debug encryption key . . . . . . :   *NONE
+  Output . . . . . . . . . . . . . :   *PRINT
+  Optimization level . . . . . . . :   *NONE
+  Source listing indentation . . . :   *NONE
+  Type conversion options  . . . . :   *NONE
+  Sort sequence  . . . . . . . . . :   *HEX
+  Language identifier  . . . . . . :   *JOBRUN
+  Replace program  . . . . . . . . :   *YES
+  User profile . . . . . . . . . . :   *USER
+  Authority  . . . . . . . . . . . :   *LIBCRTAUT
+  Truncate numeric . . . . . . . . :   *YES
+  Fix numeric  . . . . . . . . . . :   *NONE
+  Target release . . . . . . . . . :   *CURRENT
+  Allow null values  . . . . . . . :   *NO
+  Define condition names . . . . . :   *NONE
+  Enable performance collection  . :   *PEP
+  Profiling data . . . . . . . . . :   *NOCOL
+  Licensed Internal Code options . :
+  Generate program interface . . . :   *NO
+  Include directory  . . . . . . . :
+  Preprocessor options . . . . . . :   *NONE
+  Require prototype for export . . :   *NO
+ 5770WDS V7R5M0  220415 RN        IBM ILE RPG             VZAPI_FREE/B_AUTO        XASSIST    10/25/25 15:47:26        Page      2
+
+Line   <---------------------- Source Specifications ----------------------------------------------------->  Do  Change Src Seq
+Number ....+....1....+....2....+....3....+....4....+....5....+....6....+....7....+....8....+....9....+...10  Num Date   Id  Number
+
+                          S o u r c e   L i s t i n g
+
+     1 **free                                                                                                               000001
+     2                                                                                                                      000002
+     3                                                                                                                      000003
+
+
+     4 dcl-s num uns(5);                                                                                                    000004
+     5                                                                                                                      000005
+     6 dcl-s AUTO_ARR char(3) DIM(*AUTO: 1000);           // 0 prvků                                                        000006
+     7                                                                                                                      000007
+
+
+     8 auto_arr(100) = 'abc';          // 100 prvků                                                                         000008
+     9 auto_arr(50) = 'abc';           // 100 prvků                                                                         000009
+    10 %ELEM(auto_arr) = 25;           // 25 prvků                                                                          000010
+    11 auto_arr(*NEXT) = 'abc';        // 26 prvků                                                                          000011
+    12 %ELEM(auto_arr: *ALLOC) = 10;   // nechá 26 prvků                                                                    000012
+    13 %ELEM(auto_arr: *ALLOC) = 120;  // zvýší na 120 prvků                                                                000013
+    14 num = %ELEM(auto_arr: *ALLOC);  // num = 120                                                                         000014
+    15 num = %ELEM(auto_arr: *MAX);    // num = 1000                                                                        000015
+    16                                                                                                                      000016
+    17 dump(a);                                                                                                             000017
+    18                                                                                                                      000018
+    19 return;                                                                                                              000019
+
+       * * * * *   E N D   O F   S O U R C E   * * * * *
+ 5770WDS V7R5M0  220415 RN        IBM ILE RPG             VZAPI_FREE/B_AUTO        XASSIST    10/25/25 15:47:26        Page      3
+
+          A d d i t i o n a l   D i a g n o s t i c   M e s s a g e s
+
+ Msg id  Sv Number Seq     Message text
+
+ * * * * *   E N D   O F   A D D I T I O N A L   D I A G N O S T I C   M E S S A G E S   * * * * *
+ 5770WDS V7R5M0  220415 RN        IBM ILE RPG             VZAPI_FREE/B_AUTO        XASSIST    10/25/25 15:47:26        Page      4
+
+                          C r o s s   R e f e r e n c e
+
+      File and Record References:
+
+         File              Device             References (D=Defined)
+           Record
+
+         No references in the source.
+
+      Global Field References:
+
+         Field             Attributes         References (D=Defined M=Modified)
+         AUTO_ARR(*AUTO:1000)...
+                           A(3)                    6D      8M      9M     10M
+                                                  11M     12M     13M     14
+                                                  15
+         NUM               U(5,0)                  4D     14M     15M
+
+      Indicator References:
+
+         Indicator                            References (D=Defined M=Modified)
+
+       * * * * *   E N D   O F   C R O S S   R E F E R E N C E   * * * * *
+ 5770WDS V7R5M0  220415 RN        IBM ILE RPG             VZAPI_FREE/B_AUTO        XASSIST    10/25/25 15:47:26        Page      5
+
+                      E x t e r n a l   R e f e r e n c e s
+
+      Statically bound procedures:
+         Procedure                            References
+         No references in the source.
+
+      Imported fields:
+         Field             Attributes         Defined
+         No references in the source.
+
+      Exported fields:
+         Field             Attributes         Defined
+         No references in the source.
+
+   * * * * *   E N D   O F   E X T E R N A L   R E F E R E N C E S   * * * * *
+ 5770WDS V7R5M0  220415 RN        IBM ILE RPG             VZAPI_FREE/B_AUTO        XASSIST    10/25/25 15:47:26        Page      6
+
+                          M e s s a g e   S u m m a r y
+
+ Msg id  Sv Number Message text
+
+       * * * * *   E N D   O F   M E S S A G E   S U M M A R Y   * * * * *
+ 5770WDS V7R5M0  220415 RN        IBM ILE RPG             VZAPI_FREE/B_AUTO        XASSIST    10/25/25 15:47:26        Page      7
+
+                            F i n a l   S u m m a r y
+
+  Message Totals:
+
+    Information  (00) . . . . . . . :        0
+    Warning      (10) . . . . . . . :        0
+    Error        (20) . . . . . . . :        0
+    Severe Error (30+)  . . . . . . :        0
+    ---------------------------------  -------
+    Total . . . . . . . . . . . . . :        0
+
+
+  Source Totals:
+
+    Records . . . . . . . . . . . . :       19
+    Specifications  . . . . . . . . :       12
+    Data records  . . . . . . . . . :        0
+    Comments  . . . . . . . . . . . :        6
+
+         * * * * *   E N D   O F   F I N A L   S U M M A R Y   * * * * *
+Program B_AUTO placed in library VZAPI_FREE. 00 highest severity. Created on 10/25/25 at 15:47:26.
+          * * * * *   E N D   O F   C O M P I L A T I O N   * * * * *
