@@ -1,0 +1,1247 @@
+ 5770SS1 V7R5M0 220415                        Zobrazit protokol úlohy               XASSIST   12/22/25  16:31:02 UTC Str.        1
+
+  Název úlohy  . . . . . . . . :   QZRCSRVS        Uživatel  . . . . :   QUSER        Číslo  . . . . . . . . . . . :   088740
+  Popis úlohy  . . . . . . . . :   QZBSJOBD        Knihovna . . . . :    QSYS
+
+
+ID ZPRÁVY  TYP                     ZÁV  DATUM     ČAS                 Z PGM     KNIHOVNA    INST     DO PGM      KNIHOVNA    INST
+
+CPF1124    Informace               00   12/22/25  14:00:49.107291  QWTPIIPP     QSYS        04DC     *EXT                    *N
+                                     Zpráva  . . . . :   Job 088740/QUSER/QZRCSRVS started on 12/22/25 at 14:00:49
+                                       in subsystem QUSRWRK in QSYS. Job entered system on 12/22/25 at 14:00:49.
+CPD0912    Diagnostika             20   12/22/25  15:22:48.108514  QWTCHGJB     QSYS        31F0     QZBSSECR    QSYS        *STMT
+                                     Od uživatele . . . . . . . :    VZUPKA
+                                     Do modulu . . . . . . . . . :   QZBSSECR
+                                     Do procedury  . . . . . . . :   QzbsChangeJob__Fi
+                                     Příkaz . . . . . . . . . :      33
+                                     Zpráva  . . . . :   Printer device QPRINT not found.
+                                     Cause . . . . . :   The printer device was not found. Recovery  . . . :
+                                       Either create the printer device (CRTDEVPRT command) or if the printer
+                                       device name is not correct, change the printer device name and then try the
+                                       command again.
+CPF1301    Informace               30   12/22/25  15:22:48.108677  QWTCHGJB     QSYS        1214     QZBSSECR    QSYS        *STMT
+                                     Od uživatele . . . . . . . :    VZUPKA
+                                     Do modulu . . . . . . . . . :   QZBSSECR
+                                     Do procedury  . . . . . . . :   QzbsChangeJob__Fi
+                                     Příkaz . . . . . . . . . :      33
+                                     Zpráva  . . . . :   ACGDTA for 088740/QUSER/QZRCSRVS not journaled; reason 1.
+                                     Cause . . . . . :   Job resource accounting data for job 088740/QUSER/QZRCSRVS
+                                       was not journaled to the system accounting journal QSYS/QACGJRN. -- Reason
+                                       codes and their meanings follow: -- 1-The accounting level system value
+                                       (QACGLVL) indicated that this level of resource accounting was not to be
+                                       done when the job entered the system. -- 2-The accounting journal
+                                       QSYS/QACGJRN is unable to receive the data.  The accounting data was sent to
+                                       the history log (QHST) as the text of a CPF1303 message.  See CPF1302 in the
+                                       history log (QHST) for recovery action. -- 3-The accounting journal
+                                       QSYS/QACGJRN  was allocated to another job.  The accounting data was sent to
+                                       the history log (QHST) as the text of a CPF1303 message.
+CPD1672    Diagnostika             00   12/22/25  15:22:48.108763  QWTCHGJB     QSYS        31F0     QZBSSECR    QSYS        *STMT
+                                     Od uživatele . . . . . . . :    VZUPKA
+                                     Do modulu . . . . . . . . . :   QZBSSECR
+                                     Do procedury  . . . . . . . :   QzbsChangeJob__Fi
+                                     Příkaz . . . . . . . . . :      33
+                                     Zpráva  . . . . :   Job changed successfully; however errors occurred.
+                                     Cause . . . . . :   The request to change the job attributes completed
+                                       successfully, however errors occurred during processing. Recovery  . . . :
+                                       See previously listed messages for details.
+CPIAD02    Informace               00   12/22/25  15:22:48.117274  QZBSSECR     QSYS        *STMT    QZBSSECR    QSYS        *STMT
+                                     Od uživatele . . . . . . . :    VZUPKA
+                                     Z modulu  . . . . . . . . . :   QZBSSECR
+                                     Z procedury     . . . . . . :   QzbsCheckSwapResults__FiP17QzbsStrSrvRequestP1
+                                       2QzbsStdReplyP14QzbsReplyHdr_tPA10_cPcPiPsP16sockaddr_storageN27
+                                     Příkaz . . . . . . . . . :      315
+                                     Do modulu . . . . . . . . . :   QZBSSECR
+                                     Do procedury  . . . . . . . :   QzbsCheckSwapResults__FiP17QzbsStrSrvRequestP1
+                                       2QzbsStdReplyP14QzbsReplyHdr_tPA10_cPcPiPsP16sockaddr_storageN27
+                                     Příkaz . . . . . . . . . :      315
+                                     Zpráva  . . . . :   User VZUPKA from client 10.111.111.2 connected to server.
+                                     Cause . . . . . :   User profile VZUPKA from client 10.111.111.2 is currently
+                                       connected to this server job.  The client name is either a TCP/IP remote
+                                       system name, a dotted decimal IP address, the local host name, or an IPv6
+                                       address.
+CPD0912    Diagnostika             20   12/22/25  15:22:48.119139  QWTCHGJB     QSYS        31F0     QZRCSRVS    QSYS        *STMT
+                                     Od uživatele . . . . . . . :    VZUPKA
+                                     Do modulu . . . . . . . . . :   QZRCSRVS
+                                     Do procedury  . . . . . . . :   ChangeJob
+                                     Příkaz . . . . . . . . . :      19
+ 5770SS1 V7R5M0 220415                        Zobrazit protokol úlohy               XASSIST   12/22/25  16:31:02 UTC Str.        2
+
+  Název úlohy  . . . . . . . . :   QZRCSRVS        Uživatel  . . . . :   QUSER        Číslo  . . . . . . . . . . . :   088740
+  Popis úlohy  . . . . . . . . :   QZBSJOBD        Knihovna . . . . :    QSYS
+
+
+ID ZPRÁVY  TYP                     ZÁV  DATUM     ČAS                 Z PGM     KNIHOVNA    INST     DO PGM      KNIHOVNA    INST
+
+                                     Zpráva  . . . . :   Printer device QPRINT not found.
+                                     Cause . . . . . :   The printer device was not found. Recovery  . . . :
+                                       Either create the printer device (CRTDEVPRT command) or if the printer
+                                       device name is not correct, change the printer device name and then try the
+                                       command again.
+CPD1672    Diagnostika             00   12/22/25  15:22:48.127609  QWTCHGJB     QSYS        31F0     QZRCSRVS    QSYS        *STMT
+                                     Od uživatele . . . . . . . :    VZUPKA
+                                     Do modulu . . . . . . . . . :   QZRCSRVS
+                                     Do procedury  . . . . . . . :   ChangeJob
+                                     Příkaz . . . . . . . . . :      19
+                                     Zpráva  . . . . :   Job changed successfully; however errors occurred.
+                                     Cause . . . . . :   The request to change the job attributes completed
+                                       successfully, however errors occurred during processing. Recovery  . . . :
+                                       See previously listed messages for details.
+CPC2196    Dokončení               00   12/22/25  15:22:48.138283  QLICHLBL     QSYS        0149     QLILIBL     QSYS        *STMT
+                                     Od uživatele . . . . . . . :    VZUPKA
+                                     Do modulu . . . . . . . . . :   QLILIBL
+                                     Do procedury  . . . . . . . :   chgslibl
+                                     Příkaz . . . . . . . . . :      21
+                                     Zpráva  . . . . :   Library QSYS2975 added to library list.
+                                     Cause . . . . . :   If the ADDLIBLE command was used, QSYS2975 was added to
+                                       the user library list.  If the CHGSYSLIBL command was used, QSYS2975 was
+                                       added to the system portion of the library list.
+CPF5C61    Informace               00   12/22/25  15:22:48.177238  QZRCSRVS     QSYS        *STMT    QZRCSRVS    QSYS        *STMT
+                                     Od uživatele . . . . . . . :    VZUPKA
+                                     Z modulu  . . . . . . . . . :   QZRCRPC
+                                     Z procedury     . . . . . . :   LogRpcMessage
+                                     Příkaz . . . . . . . . . :      13
+                                     Do modulu . . . . . . . . . :   QZRCRPC
+                                     Do procedury  . . . . . . . :   LogRpcMessage
+                                     Příkaz . . . . . . . . . :      13
+                                     Zpráva  . . . . :   Client request - run program QSYS/QWCRSVAL.
+CPF5C61    Informace               00   12/22/25  15:22:48.187344  QZRCSRVS     QSYS        *STMT    QZRCSRVS    QSYS        *STMT
+                                     Od uživatele . . . . . . . :    VZUPKA
+                                     Z modulu  . . . . . . . . . :   QZRCRPC
+                                     Z procedury     . . . . . . :   LogRpcMessage
+                                     Příkaz . . . . . . . . . :      13
+                                     Do modulu . . . . . . . . . :   QZRCRPC
+                                     Do procedury  . . . . . . . :   LogRpcMessage
+                                     Příkaz . . . . . . . . . :      13
+                                     Zpráva  . . . . :   Client request - run program QSYS/QUSRJOBI.
+CPF5C61    Informace               00   12/22/25  15:23:03.695062  QZRCSRVS     QSYS        *STMT    QZRCSRVS    QSYS        *STMT
+                                     Od uživatele . . . . . . . :    VZUPKA
+                                     Z modulu  . . . . . . . . . :   QZRCRPC
+                                     Z procedury     . . . . . . :   LogRpcMessage
+                                     Příkaz . . . . . . . . . :      13
+                                     Do modulu . . . . . . . . . :   QZRCRPC
+                                     Do procedury  . . . . . . . :   LogRpcMessage
+                                     Příkaz . . . . . . . . . :      13
+                                     Zpráva  . . . . :   Client request - run program QSYS/QDBRTVFD.
+CPF5C61    Informace               00   12/22/25  15:23:03.711293  QZRCSRVS     QSYS        *STMT    QZRCSRVS    QSYS        *STMT
+                                     Od uživatele . . . . . . . :    VZUPKA
+                                     Z modulu  . . . . . . . . . :   QZRCRPC
+                                     Z procedury     . . . . . . :   LogRpcMessage
+                                     Příkaz . . . . . . . . . :      13
+                                     Do modulu . . . . . . . . . :   QZRCRPC
+                                     Do procedury  . . . . . . . :   LogRpcMessage
+                                     Příkaz . . . . . . . . . :      13
+ 5770SS1 V7R5M0 220415                        Zobrazit protokol úlohy               XASSIST   12/22/25  16:31:02 UTC Str.        3
+
+  Název úlohy  . . . . . . . . :   QZRCSRVS        Uživatel  . . . . :   QUSER        Číslo  . . . . . . . . . . . :   088740
+  Popis úlohy  . . . . . . . . :   QZBSJOBD        Knihovna . . . . :    QSYS
+
+
+ID ZPRÁVY  TYP                     ZÁV  DATUM     ČAS                 Z PGM     KNIHOVNA    INST     DO PGM      KNIHOVNA    INST
+
+                                     Zpráva  . . . . :   Client request - run program QSYS/QDBRTVFD.
+CPF5C61    Informace               00   12/22/25  15:23:03.728851  QZRCSRVS     QSYS        *STMT    QZRCSRVS    QSYS        *STMT
+                                     Od uživatele . . . . . . . :    VZUPKA
+                                     Z modulu  . . . . . . . . . :   QZRCRPC
+                                     Z procedury     . . . . . . :   LogRpcMessage
+                                     Příkaz . . . . . . . . . :      13
+                                     Do modulu . . . . . . . . . :   QZRCRPC
+                                     Do procedury  . . . . . . . :   LogRpcMessage
+                                     Příkaz . . . . . . . . . :      13
+                                     Zpráva  . . . . :   Client request - run program QSYS/QDBRTVFD.
+CPF5C61    Informace               00   12/22/25  15:23:03.746008  QZRCSRVS     QSYS        *STMT    QZRCSRVS    QSYS        *STMT
+                                     Od uživatele . . . . . . . :    VZUPKA
+                                     Z modulu  . . . . . . . . . :   QZRCRPC
+                                     Z procedury     . . . . . . :   LogRpcMessage
+                                     Příkaz . . . . . . . . . :      13
+                                     Do modulu . . . . . . . . . :   QZRCRPC
+                                     Do procedury  . . . . . . . :   LogRpcMessage
+                                     Příkaz . . . . . . . . . :      13
+                                     Zpráva  . . . . :   Client request - run program QSYS/QDBRTVFD.
+CPF5C61    Informace               00   12/22/25  15:23:03.763035  QZRCSRVS     QSYS        *STMT    QZRCSRVS    QSYS        *STMT
+                                     Od uživatele . . . . . . . :    VZUPKA
+                                     Z modulu  . . . . . . . . . :   QZRCRPC
+                                     Z procedury     . . . . . . :   LogRpcMessage
+                                     Příkaz . . . . . . . . . :      13
+                                     Do modulu . . . . . . . . . :   QZRCRPC
+                                     Do procedury  . . . . . . . :   LogRpcMessage
+                                     Příkaz . . . . . . . . . :      13
+                                     Zpráva  . . . . :   Client request - run program QSYS/QDBRTVFD.
+CPF5C61    Informace               00   12/22/25  15:23:03.806721  QZRCSRVS     QSYS        *STMT    QZRCSRVS    QSYS        *STMT
+                                     Od uživatele . . . . . . . :    VZUPKA
+                                     Z modulu  . . . . . . . . . :   QZRCRPC
+                                     Z procedury     . . . . . . :   LogRpcMessage
+                                     Příkaz . . . . . . . . . :      13
+                                     Do modulu . . . . . . . . . :   QZRCRPC
+                                     Do procedury  . . . . . . . :   LogRpcMessage
+                                     Příkaz . . . . . . . . . :      13
+                                     Zpráva  . . . . :   Client request - run program QSYS/QDBRTVFD.
+CPF5C61    Informace               00   12/22/25  15:23:03.824021  QZRCSRVS     QSYS        *STMT    QZRCSRVS    QSYS        *STMT
+                                     Od uživatele . . . . . . . :    VZUPKA
+                                     Z modulu  . . . . . . . . . :   QZRCRPC
+                                     Z procedury     . . . . . . :   LogRpcMessage
+                                     Příkaz . . . . . . . . . :      13
+                                     Do modulu . . . . . . . . . :   QZRCRPC
+                                     Do procedury  . . . . . . . :   LogRpcMessage
+                                     Příkaz . . . . . . . . . :      13
+                                     Zpráva  . . . . :   Client request - run program QSYS/QDBRTVFD.
+CPF5C61    Informace               00   12/22/25  15:23:03.840993  QZRCSRVS     QSYS        *STMT    QZRCSRVS    QSYS        *STMT
+                                     Od uživatele . . . . . . . :    VZUPKA
+                                     Z modulu  . . . . . . . . . :   QZRCRPC
+                                     Z procedury     . . . . . . :   LogRpcMessage
+                                     Příkaz . . . . . . . . . :      13
+                                     Do modulu . . . . . . . . . :   QZRCRPC
+                                     Do procedury  . . . . . . . :   LogRpcMessage
+                                     Příkaz . . . . . . . . . :      13
+                                     Zpráva  . . . . :   Client request - run program QSYS/QDBRTVFD.
+CPF5C61    Informace               00   12/22/25  15:23:03.858775  QZRCSRVS     QSYS        *STMT    QZRCSRVS    QSYS        *STMT
+                                     Od uživatele . . . . . . . :    VZUPKA
+                                     Z modulu  . . . . . . . . . :   QZRCRPC
+ 5770SS1 V7R5M0 220415                        Zobrazit protokol úlohy               XASSIST   12/22/25  16:31:02 UTC Str.        4
+
+  Název úlohy  . . . . . . . . :   QZRCSRVS        Uživatel  . . . . :   QUSER        Číslo  . . . . . . . . . . . :   088740
+  Popis úlohy  . . . . . . . . :   QZBSJOBD        Knihovna . . . . :    QSYS
+
+
+ID ZPRÁVY  TYP                     ZÁV  DATUM     ČAS                 Z PGM     KNIHOVNA    INST     DO PGM      KNIHOVNA    INST
+
+                                     Z procedury     . . . . . . :   LogRpcMessage
+                                     Příkaz . . . . . . . . . :      13
+                                     Do modulu . . . . . . . . . :   QZRCRPC
+                                     Do procedury  . . . . . . . :   LogRpcMessage
+                                     Příkaz . . . . . . . . . :      13
+                                     Zpráva  . . . . :   Client request - run program QSYS/QDBRTVFD.
+CPF5C61    Informace               00   12/22/25  15:23:03.905033  QZRCSRVS     QSYS        *STMT    QZRCSRVS    QSYS        *STMT
+                                     Od uživatele . . . . . . . :    VZUPKA
+                                     Z modulu  . . . . . . . . . :   QZRCRPC
+                                     Z procedury     . . . . . . :   LogRpcMessage
+                                     Příkaz . . . . . . . . . :      13
+                                     Do modulu . . . . . . . . . :   QZRCRPC
+                                     Do procedury  . . . . . . . :   LogRpcMessage
+                                     Příkaz . . . . . . . . . :      13
+                                     Zpráva  . . . . :   Client request - run program QSYS/QDBRTVFD.
+CPF5C61    Informace               00   12/22/25  15:23:03.941009  QZRCSRVS     QSYS        *STMT    QZRCSRVS    QSYS        *STMT
+                                     Od uživatele . . . . . . . :    VZUPKA
+                                     Z modulu  . . . . . . . . . :   QZRCRPC
+                                     Z procedury     . . . . . . :   LogRpcMessage
+                                     Příkaz . . . . . . . . . :      13
+                                     Do modulu . . . . . . . . . :   QZRCRPC
+                                     Do procedury  . . . . . . . :   LogRpcMessage
+                                     Příkaz . . . . . . . . . :      13
+                                     Zpráva  . . . . :   Client request - run program QSYS/QDBRTVFD.
+CPF5C61    Informace               00   12/22/25  15:23:03.969299  QZRCSRVS     QSYS        *STMT    QZRCSRVS    QSYS        *STMT
+                                     Od uživatele . . . . . . . :    VZUPKA
+                                     Z modulu  . . . . . . . . . :   QZRCRPC
+                                     Z procedury     . . . . . . :   LogRpcMessage
+                                     Příkaz . . . . . . . . . :      13
+                                     Do modulu . . . . . . . . . :   QZRCRPC
+                                     Do procedury  . . . . . . . :   LogRpcMessage
+                                     Příkaz . . . . . . . . . :      13
+                                     Zpráva  . . . . :   Client request - run program QSYS/QDBRTVFD.
+CPF5C61    Informace               00   12/22/25  15:23:03.997010  QZRCSRVS     QSYS        *STMT    QZRCSRVS    QSYS        *STMT
+                                     Od uživatele . . . . . . . :    VZUPKA
+                                     Z modulu  . . . . . . . . . :   QZRCRPC
+                                     Z procedury     . . . . . . :   LogRpcMessage
+                                     Příkaz . . . . . . . . . :      13
+                                     Do modulu . . . . . . . . . :   QZRCRPC
+                                     Do procedury  . . . . . . . :   LogRpcMessage
+                                     Příkaz . . . . . . . . . :      13
+                                     Zpráva  . . . . :   Client request - run program QSYS/QDBRTVFD.
+CPF5C61    Informace               00   12/22/25  15:23:04.043983  QZRCSRVS     QSYS        *STMT    QZRCSRVS    QSYS        *STMT
+                                     Od uživatele . . . . . . . :    VZUPKA
+                                     Z modulu  . . . . . . . . . :   QZRCRPC
+                                     Z procedury     . . . . . . :   LogRpcMessage
+                                     Příkaz . . . . . . . . . :      13
+                                     Do modulu . . . . . . . . . :   QZRCRPC
+                                     Do procedury  . . . . . . . :   LogRpcMessage
+                                     Příkaz . . . . . . . . . :      13
+                                     Zpráva  . . . . :   Client request - run program QSYS/QDBRTVFD.
+CPF5C61    Informace               00   12/22/25  15:23:04.078281  QZRCSRVS     QSYS        *STMT    QZRCSRVS    QSYS        *STMT
+                                     Od uživatele . . . . . . . :    VZUPKA
+                                     Z modulu  . . . . . . . . . :   QZRCRPC
+                                     Z procedury     . . . . . . :   LogRpcMessage
+                                     Příkaz . . . . . . . . . :      13
+                                     Do modulu . . . . . . . . . :   QZRCRPC
+                                     Do procedury  . . . . . . . :   LogRpcMessage
+ 5770SS1 V7R5M0 220415                        Zobrazit protokol úlohy               XASSIST   12/22/25  16:31:02 UTC Str.        5
+
+  Název úlohy  . . . . . . . . :   QZRCSRVS        Uživatel  . . . . :   QUSER        Číslo  . . . . . . . . . . . :   088740
+  Popis úlohy  . . . . . . . . :   QZBSJOBD        Knihovna . . . . :    QSYS
+
+
+ID ZPRÁVY  TYP                     ZÁV  DATUM     ČAS                 Z PGM     KNIHOVNA    INST     DO PGM      KNIHOVNA    INST
+
+                                     Příkaz . . . . . . . . . :      13
+                                     Zpráva  . . . . :   Client request - run program QSYS/QDBRTVFD.
+CPF5C61    Informace               00   12/22/25  15:23:04.104746  QZRCSRVS     QSYS        *STMT    QZRCSRVS    QSYS        *STMT
+                                     Od uživatele . . . . . . . :    VZUPKA
+                                     Z modulu  . . . . . . . . . :   QZRCRPC
+                                     Z procedury     . . . . . . :   LogRpcMessage
+                                     Příkaz . . . . . . . . . :      13
+                                     Do modulu . . . . . . . . . :   QZRCRPC
+                                     Do procedury  . . . . . . . :   LogRpcMessage
+                                     Příkaz . . . . . . . . . :      13
+                                     Zpráva  . . . . :   Client request - run program QSYS/QDBRTVFD.
+CPF5C61    Informace               00   12/22/25  15:23:04.122528  QZRCSRVS     QSYS        *STMT    QZRCSRVS    QSYS        *STMT
+                                     Od uživatele . . . . . . . :    VZUPKA
+                                     Z modulu  . . . . . . . . . :   QZRCRPC
+                                     Z procedury     . . . . . . :   LogRpcMessage
+                                     Příkaz . . . . . . . . . :      13
+                                     Do modulu . . . . . . . . . :   QZRCRPC
+                                     Do procedury  . . . . . . . :   LogRpcMessage
+                                     Příkaz . . . . . . . . . :      13
+                                     Zpráva  . . . . :   Client request - run program QSYS/QDBRTVFD.
+CPF5C61    Informace               00   12/22/25  15:23:04.149771  QZRCSRVS     QSYS        *STMT    QZRCSRVS    QSYS        *STMT
+                                     Od uživatele . . . . . . . :    VZUPKA
+                                     Z modulu  . . . . . . . . . :   QZRCRPC
+                                     Z procedury     . . . . . . :   LogRpcMessage
+                                     Příkaz . . . . . . . . . :      13
+                                     Do modulu . . . . . . . . . :   QZRCRPC
+                                     Do procedury  . . . . . . . :   LogRpcMessage
+                                     Příkaz . . . . . . . . . :      13
+                                     Zpráva  . . . . :   Client request - run program QSYS/QDBRTVFD.
+CPF5C61    Informace               00   12/22/25  15:23:04.168005  QZRCSRVS     QSYS        *STMT    QZRCSRVS    QSYS        *STMT
+                                     Od uživatele . . . . . . . :    VZUPKA
+                                     Z modulu  . . . . . . . . . :   QZRCRPC
+                                     Z procedury     . . . . . . :   LogRpcMessage
+                                     Příkaz . . . . . . . . . :      13
+                                     Do modulu . . . . . . . . . :   QZRCRPC
+                                     Do procedury  . . . . . . . :   LogRpcMessage
+                                     Příkaz . . . . . . . . . :      13
+                                     Zpráva  . . . . :   Client request - run program QSYS/QDBRTVFD.
+CPF5C61    Informace               00   12/22/25  15:23:07.684818  QZRCSRVS     QSYS        *STMT    QZRCSRVS    QSYS        *STMT
+                                     Od uživatele . . . . . . . :    VZUPKA
+                                     Z modulu  . . . . . . . . . :   QZRCRPC
+                                     Z procedury     . . . . . . :   LogRpcMessage
+                                     Příkaz . . . . . . . . . :      13
+                                     Do modulu . . . . . . . . . :   QZRCRPC
+                                     Do procedury  . . . . . . . :   LogRpcMessage
+                                     Příkaz . . . . . . . . . :      13
+                                     Zpráva  . . . . :   Client request - run program QSYS/QDBRTVFD.
+CPF5C61    Informace               00   12/22/25  15:23:07.735062  QZRCSRVS     QSYS        *STMT    QZRCSRVS    QSYS        *STMT
+                                     Od uživatele . . . . . . . :    VZUPKA
+                                     Z modulu  . . . . . . . . . :   QZRCRPC
+                                     Z procedury     . . . . . . :   LogRpcMessage
+                                     Příkaz . . . . . . . . . :      13
+                                     Do modulu . . . . . . . . . :   QZRCRPC
+                                     Do procedury  . . . . . . . :   LogRpcMessage
+                                     Příkaz . . . . . . . . . :      13
+                                     Zpráva  . . . . :   Client request - run program QSYS/QDBRTVFD.
+CPF5C61    Informace               00   12/22/25  15:23:07.752081  QZRCSRVS     QSYS        *STMT    QZRCSRVS    QSYS        *STMT
+                                     Od uživatele . . . . . . . :    VZUPKA
+ 5770SS1 V7R5M0 220415                        Zobrazit protokol úlohy               XASSIST   12/22/25  16:31:02 UTC Str.        6
+
+  Název úlohy  . . . . . . . . :   QZRCSRVS        Uživatel  . . . . :   QUSER        Číslo  . . . . . . . . . . . :   088740
+  Popis úlohy  . . . . . . . . :   QZBSJOBD        Knihovna . . . . :    QSYS
+
+
+ID ZPRÁVY  TYP                     ZÁV  DATUM     ČAS                 Z PGM     KNIHOVNA    INST     DO PGM      KNIHOVNA    INST
+
+                                     Z modulu  . . . . . . . . . :   QZRCRPC
+                                     Z procedury     . . . . . . :   LogRpcMessage
+                                     Příkaz . . . . . . . . . :      13
+                                     Do modulu . . . . . . . . . :   QZRCRPC
+                                     Do procedury  . . . . . . . :   LogRpcMessage
+                                     Příkaz . . . . . . . . . :      13
+                                     Zpráva  . . . . :   Client request - run program QSYS/QDBRTVFD.
+CPF5C61    Informace               00   12/22/25  15:23:07.769565  QZRCSRVS     QSYS        *STMT    QZRCSRVS    QSYS        *STMT
+                                     Od uživatele . . . . . . . :    VZUPKA
+                                     Z modulu  . . . . . . . . . :   QZRCRPC
+                                     Z procedury     . . . . . . :   LogRpcMessage
+                                     Příkaz . . . . . . . . . :      13
+                                     Do modulu . . . . . . . . . :   QZRCRPC
+                                     Do procedury  . . . . . . . :   LogRpcMessage
+                                     Příkaz . . . . . . . . . :      13
+                                     Zpráva  . . . . :   Client request - run program QSYS/QDBRTVFD.
+CPF5C61    Informace               00   12/22/25  15:23:07.786502  QZRCSRVS     QSYS        *STMT    QZRCSRVS    QSYS        *STMT
+                                     Od uživatele . . . . . . . :    VZUPKA
+                                     Z modulu  . . . . . . . . . :   QZRCRPC
+                                     Z procedury     . . . . . . :   LogRpcMessage
+                                     Příkaz . . . . . . . . . :      13
+                                     Do modulu . . . . . . . . . :   QZRCRPC
+                                     Do procedury  . . . . . . . :   LogRpcMessage
+                                     Příkaz . . . . . . . . . :      13
+                                     Zpráva  . . . . :   Client request - run program QSYS/QDBRTVFD.
+CPF5C61    Informace               00   12/22/25  15:23:07.804559  QZRCSRVS     QSYS        *STMT    QZRCSRVS    QSYS        *STMT
+                                     Od uživatele . . . . . . . :    VZUPKA
+                                     Z modulu  . . . . . . . . . :   QZRCRPC
+                                     Z procedury     . . . . . . :   LogRpcMessage
+                                     Příkaz . . . . . . . . . :      13
+                                     Do modulu . . . . . . . . . :   QZRCRPC
+                                     Do procedury  . . . . . . . :   LogRpcMessage
+                                     Příkaz . . . . . . . . . :      13
+                                     Zpráva  . . . . :   Client request - run program QSYS/QDBRTVFD.
+CPF5C61    Informace               00   12/22/25  15:23:07.820318  QZRCSRVS     QSYS        *STMT    QZRCSRVS    QSYS        *STMT
+                                     Od uživatele . . . . . . . :    VZUPKA
+                                     Z modulu  . . . . . . . . . :   QZRCRPC
+                                     Z procedury     . . . . . . :   LogRpcMessage
+                                     Příkaz . . . . . . . . . :      13
+                                     Do modulu . . . . . . . . . :   QZRCRPC
+                                     Do procedury  . . . . . . . :   LogRpcMessage
+                                     Příkaz . . . . . . . . . :      13
+                                     Zpráva  . . . . :   Client request - run program QSYS/QDBRTVFD.
+CPF5C61    Informace               00   12/22/25  15:23:07.837252  QZRCSRVS     QSYS        *STMT    QZRCSRVS    QSYS        *STMT
+                                     Od uživatele . . . . . . . :    VZUPKA
+                                     Z modulu  . . . . . . . . . :   QZRCRPC
+                                     Z procedury     . . . . . . :   LogRpcMessage
+                                     Příkaz . . . . . . . . . :      13
+                                     Do modulu . . . . . . . . . :   QZRCRPC
+                                     Do procedury  . . . . . . . :   LogRpcMessage
+                                     Příkaz . . . . . . . . . :      13
+                                     Zpráva  . . . . :   Client request - run program QSYS/QDBRTVFD.
+CPF5C61    Informace               00   12/22/25  15:23:07.855075  QZRCSRVS     QSYS        *STMT    QZRCSRVS    QSYS        *STMT
+                                     Od uživatele . . . . . . . :    VZUPKA
+                                     Z modulu  . . . . . . . . . :   QZRCRPC
+                                     Z procedury     . . . . . . :   LogRpcMessage
+                                     Příkaz . . . . . . . . . :      13
+                                     Do modulu . . . . . . . . . :   QZRCRPC
+ 5770SS1 V7R5M0 220415                        Zobrazit protokol úlohy               XASSIST   12/22/25  16:31:02 UTC Str.        7
+
+  Název úlohy  . . . . . . . . :   QZRCSRVS        Uživatel  . . . . :   QUSER        Číslo  . . . . . . . . . . . :   088740
+  Popis úlohy  . . . . . . . . :   QZBSJOBD        Knihovna . . . . :    QSYS
+
+
+ID ZPRÁVY  TYP                     ZÁV  DATUM     ČAS                 Z PGM     KNIHOVNA    INST     DO PGM      KNIHOVNA    INST
+
+                                     Do procedury  . . . . . . . :   LogRpcMessage
+                                     Příkaz . . . . . . . . . :      13
+                                     Zpráva  . . . . :   Client request - run program QSYS/QDBRTVFD.
+CPF5C61    Informace               00   12/22/25  15:23:07.872885  QZRCSRVS     QSYS        *STMT    QZRCSRVS    QSYS        *STMT
+                                     Od uživatele . . . . . . . :    VZUPKA
+                                     Z modulu  . . . . . . . . . :   QZRCRPC
+                                     Z procedury     . . . . . . :   LogRpcMessage
+                                     Příkaz . . . . . . . . . :      13
+                                     Do modulu . . . . . . . . . :   QZRCRPC
+                                     Do procedury  . . . . . . . :   LogRpcMessage
+                                     Příkaz . . . . . . . . . :      13
+                                     Zpráva  . . . . :   Client request - run program QSYS/QDBRTVFD.
+CPF5C61    Informace               00   12/22/25  15:23:07.891050  QZRCSRVS     QSYS        *STMT    QZRCSRVS    QSYS        *STMT
+                                     Od uživatele . . . . . . . :    VZUPKA
+                                     Z modulu  . . . . . . . . . :   QZRCRPC
+                                     Z procedury     . . . . . . :   LogRpcMessage
+                                     Příkaz . . . . . . . . . :      13
+                                     Do modulu . . . . . . . . . :   QZRCRPC
+                                     Do procedury  . . . . . . . :   LogRpcMessage
+                                     Příkaz . . . . . . . . . :      13
+                                     Zpráva  . . . . :   Client request - run program QSYS/QDBRTVFD.
+CPF5C61    Informace               00   12/22/25  15:23:07.906802  QZRCSRVS     QSYS        *STMT    QZRCSRVS    QSYS        *STMT
+                                     Od uživatele . . . . . . . :    VZUPKA
+                                     Z modulu  . . . . . . . . . :   QZRCRPC
+                                     Z procedury     . . . . . . :   LogRpcMessage
+                                     Příkaz . . . . . . . . . :      13
+                                     Do modulu . . . . . . . . . :   QZRCRPC
+                                     Do procedury  . . . . . . . :   LogRpcMessage
+                                     Příkaz . . . . . . . . . :      13
+                                     Zpráva  . . . . :   Client request - run program QSYS/QDBRTVFD.
+CPF5C61    Informace               00   12/22/25  15:23:07.923657  QZRCSRVS     QSYS        *STMT    QZRCSRVS    QSYS        *STMT
+                                     Od uživatele . . . . . . . :    VZUPKA
+                                     Z modulu  . . . . . . . . . :   QZRCRPC
+                                     Z procedury     . . . . . . :   LogRpcMessage
+                                     Příkaz . . . . . . . . . :      13
+                                     Do modulu . . . . . . . . . :   QZRCRPC
+                                     Do procedury  . . . . . . . :   LogRpcMessage
+                                     Příkaz . . . . . . . . . :      13
+                                     Zpráva  . . . . :   Client request - run program QSYS/QDBRTVFD.
+CPF5C61    Informace               00   12/22/25  15:23:07.940042  QZRCSRVS     QSYS        *STMT    QZRCSRVS    QSYS        *STMT
+                                     Od uživatele . . . . . . . :    VZUPKA
+                                     Z modulu  . . . . . . . . . :   QZRCRPC
+                                     Z procedury     . . . . . . :   LogRpcMessage
+                                     Příkaz . . . . . . . . . :      13
+                                     Do modulu . . . . . . . . . :   QZRCRPC
+                                     Do procedury  . . . . . . . :   LogRpcMessage
+                                     Příkaz . . . . . . . . . :      13
+                                     Zpráva  . . . . :   Client request - run program QSYS/QDBRTVFD.
+CPF5C61    Informace               00   12/22/25  15:23:07.956792  QZRCSRVS     QSYS        *STMT    QZRCSRVS    QSYS        *STMT
+                                     Od uživatele . . . . . . . :    VZUPKA
+                                     Z modulu  . . . . . . . . . :   QZRCRPC
+                                     Z procedury     . . . . . . :   LogRpcMessage
+                                     Příkaz . . . . . . . . . :      13
+                                     Do modulu . . . . . . . . . :   QZRCRPC
+                                     Do procedury  . . . . . . . :   LogRpcMessage
+                                     Příkaz . . . . . . . . . :      13
+                                     Zpráva  . . . . :   Client request - run program QSYS/QDBRTVFD.
+CPF5C61    Informace               00   12/22/25  15:23:07.973078  QZRCSRVS     QSYS        *STMT    QZRCSRVS    QSYS        *STMT
+ 5770SS1 V7R5M0 220415                        Zobrazit protokol úlohy               XASSIST   12/22/25  16:31:02 UTC Str.        8
+
+  Název úlohy  . . . . . . . . :   QZRCSRVS        Uživatel  . . . . :   QUSER        Číslo  . . . . . . . . . . . :   088740
+  Popis úlohy  . . . . . . . . :   QZBSJOBD        Knihovna . . . . :    QSYS
+
+
+ID ZPRÁVY  TYP                     ZÁV  DATUM     ČAS                 Z PGM     KNIHOVNA    INST     DO PGM      KNIHOVNA    INST
+
+                                     Od uživatele . . . . . . . :    VZUPKA
+                                     Z modulu  . . . . . . . . . :   QZRCRPC
+                                     Z procedury     . . . . . . :   LogRpcMessage
+                                     Příkaz . . . . . . . . . :      13
+                                     Do modulu . . . . . . . . . :   QZRCRPC
+                                     Do procedury  . . . . . . . :   LogRpcMessage
+                                     Příkaz . . . . . . . . . :      13
+                                     Zpráva  . . . . :   Client request - run program QSYS/QDBRTVFD.
+CPF5C61    Informace               00   12/22/25  15:23:07.989765  QZRCSRVS     QSYS        *STMT    QZRCSRVS    QSYS        *STMT
+                                     Od uživatele . . . . . . . :    VZUPKA
+                                     Z modulu  . . . . . . . . . :   QZRCRPC
+                                     Z procedury     . . . . . . :   LogRpcMessage
+                                     Příkaz . . . . . . . . . :      13
+                                     Do modulu . . . . . . . . . :   QZRCRPC
+                                     Do procedury  . . . . . . . :   LogRpcMessage
+                                     Příkaz . . . . . . . . . :      13
+                                     Zpráva  . . . . :   Client request - run program QSYS/QDBRTVFD.
+CPF5C61    Informace               00   12/22/25  15:23:08.006838  QZRCSRVS     QSYS        *STMT    QZRCSRVS    QSYS        *STMT
+                                     Od uživatele . . . . . . . :    VZUPKA
+                                     Z modulu  . . . . . . . . . :   QZRCRPC
+                                     Z procedury     . . . . . . :   LogRpcMessage
+                                     Příkaz . . . . . . . . . :      13
+                                     Do modulu . . . . . . . . . :   QZRCRPC
+                                     Do procedury  . . . . . . . :   LogRpcMessage
+                                     Příkaz . . . . . . . . . :      13
+                                     Zpráva  . . . . :   Client request - run program QSYS/QDBRTVFD.
+CPF5C61    Informace               00   12/22/25  15:23:08.023146  QZRCSRVS     QSYS        *STMT    QZRCSRVS    QSYS        *STMT
+                                     Od uživatele . . . . . . . :    VZUPKA
+                                     Z modulu  . . . . . . . . . :   QZRCRPC
+                                     Z procedury     . . . . . . :   LogRpcMessage
+                                     Příkaz . . . . . . . . . :      13
+                                     Do modulu . . . . . . . . . :   QZRCRPC
+                                     Do procedury  . . . . . . . :   LogRpcMessage
+                                     Příkaz . . . . . . . . . :      13
+                                     Zpráva  . . . . :   Client request - run program QSYS/QDBRTVFD.
+CPF5C61    Informace               00   12/22/25  15:23:08.039834  QZRCSRVS     QSYS        *STMT    QZRCSRVS    QSYS        *STMT
+                                     Od uživatele . . . . . . . :    VZUPKA
+                                     Z modulu  . . . . . . . . . :   QZRCRPC
+                                     Z procedury     . . . . . . :   LogRpcMessage
+                                     Příkaz . . . . . . . . . :      13
+                                     Do modulu . . . . . . . . . :   QZRCRPC
+                                     Do procedury  . . . . . . . :   LogRpcMessage
+                                     Příkaz . . . . . . . . . :      13
+                                     Zpráva  . . . . :   Client request - run program QSYS/QDBRTVFD.
+CPF5C61    Informace               00   12/22/25  15:23:08.057150  QZRCSRVS     QSYS        *STMT    QZRCSRVS    QSYS        *STMT
+                                     Od uživatele . . . . . . . :    VZUPKA
+                                     Z modulu  . . . . . . . . . :   QZRCRPC
+                                     Z procedury     . . . . . . :   LogRpcMessage
+                                     Příkaz . . . . . . . . . :      13
+                                     Do modulu . . . . . . . . . :   QZRCRPC
+                                     Do procedury  . . . . . . . :   LogRpcMessage
+                                     Příkaz . . . . . . . . . :      13
+                                     Zpráva  . . . . :   Client request - run program QSYS/QDBRTVFD.
+CPF5C61    Informace               00   12/22/25  15:23:08.074488  QZRCSRVS     QSYS        *STMT    QZRCSRVS    QSYS        *STMT
+                                     Od uživatele . . . . . . . :    VZUPKA
+                                     Z modulu  . . . . . . . . . :   QZRCRPC
+                                     Z procedury     . . . . . . :   LogRpcMessage
+                                     Příkaz . . . . . . . . . :      13
+ 5770SS1 V7R5M0 220415                        Zobrazit protokol úlohy               XASSIST   12/22/25  16:31:02 UTC Str.        9
+
+  Název úlohy  . . . . . . . . :   QZRCSRVS        Uživatel  . . . . :   QUSER        Číslo  . . . . . . . . . . . :   088740
+  Popis úlohy  . . . . . . . . :   QZBSJOBD        Knihovna . . . . :    QSYS
+
+
+ID ZPRÁVY  TYP                     ZÁV  DATUM     ČAS                 Z PGM     KNIHOVNA    INST     DO PGM      KNIHOVNA    INST
+
+                                     Do modulu . . . . . . . . . :   QZRCRPC
+                                     Do procedury  . . . . . . . :   LogRpcMessage
+                                     Příkaz . . . . . . . . . :      13
+                                     Zpráva  . . . . :   Client request - run program QSYS/QDBRTVFD.
+CPF5C61    Informace               00   12/22/25  15:23:08.090532  QZRCSRVS     QSYS        *STMT    QZRCSRVS    QSYS        *STMT
+                                     Od uživatele . . . . . . . :    VZUPKA
+                                     Z modulu  . . . . . . . . . :   QZRCRPC
+                                     Z procedury     . . . . . . :   LogRpcMessage
+                                     Příkaz . . . . . . . . . :      13
+                                     Do modulu . . . . . . . . . :   QZRCRPC
+                                     Do procedury  . . . . . . . :   LogRpcMessage
+                                     Příkaz . . . . . . . . . :      13
+                                     Zpráva  . . . . :   Client request - run program QSYS/QDBRTVFD.
+CPF5C61    Informace               00   12/22/25  15:23:08.107325  QZRCSRVS     QSYS        *STMT    QZRCSRVS    QSYS        *STMT
+                                     Od uživatele . . . . . . . :    VZUPKA
+                                     Z modulu  . . . . . . . . . :   QZRCRPC
+                                     Z procedury     . . . . . . :   LogRpcMessage
+                                     Příkaz . . . . . . . . . :      13
+                                     Do modulu . . . . . . . . . :   QZRCRPC
+                                     Do procedury  . . . . . . . :   LogRpcMessage
+                                     Příkaz . . . . . . . . . :      13
+                                     Zpráva  . . . . :   Client request - run program QSYS/QDBRTVFD.
+CPF5C61    Informace               00   12/22/25  15:23:08.124762  QZRCSRVS     QSYS        *STMT    QZRCSRVS    QSYS        *STMT
+                                     Od uživatele . . . . . . . :    VZUPKA
+                                     Z modulu  . . . . . . . . . :   QZRCRPC
+                                     Z procedury     . . . . . . :   LogRpcMessage
+                                     Příkaz . . . . . . . . . :      13
+                                     Do modulu . . . . . . . . . :   QZRCRPC
+                                     Do procedury  . . . . . . . :   LogRpcMessage
+                                     Příkaz . . . . . . . . . :      13
+                                     Zpráva  . . . . :   Client request - run program QSYS/QDBRTVFD.
+CPF5C61    Informace               00   12/22/25  15:23:08.141078  QZRCSRVS     QSYS        *STMT    QZRCSRVS    QSYS        *STMT
+                                     Od uživatele . . . . . . . :    VZUPKA
+                                     Z modulu  . . . . . . . . . :   QZRCRPC
+                                     Z procedury     . . . . . . :   LogRpcMessage
+                                     Příkaz . . . . . . . . . :      13
+                                     Do modulu . . . . . . . . . :   QZRCRPC
+                                     Do procedury  . . . . . . . :   LogRpcMessage
+                                     Příkaz . . . . . . . . . :      13
+                                     Zpráva  . . . . :   Client request - run program QSYS/QDBRTVFD.
+CPF5C61    Informace               00   12/22/25  15:23:08.158051  QZRCSRVS     QSYS        *STMT    QZRCSRVS    QSYS        *STMT
+                                     Od uživatele . . . . . . . :    VZUPKA
+                                     Z modulu  . . . . . . . . . :   QZRCRPC
+                                     Z procedury     . . . . . . :   LogRpcMessage
+                                     Příkaz . . . . . . . . . :      13
+                                     Do modulu . . . . . . . . . :   QZRCRPC
+                                     Do procedury  . . . . . . . :   LogRpcMessage
+                                     Příkaz . . . . . . . . . :      13
+                                     Zpráva  . . . . :   Client request - run program QSYS/QDBRTVFD.
+CPF5C61    Informace               00   12/22/25  15:23:08.175535  QZRCSRVS     QSYS        *STMT    QZRCSRVS    QSYS        *STMT
+                                     Od uživatele . . . . . . . :    VZUPKA
+                                     Z modulu  . . . . . . . . . :   QZRCRPC
+                                     Z procedury     . . . . . . :   LogRpcMessage
+                                     Příkaz . . . . . . . . . :      13
+                                     Do modulu . . . . . . . . . :   QZRCRPC
+                                     Do procedury  . . . . . . . :   LogRpcMessage
+                                     Příkaz . . . . . . . . . :      13
+                                     Zpráva  . . . . :   Client request - run program QSYS/QDBRTVFD.
+ 5770SS1 V7R5M0 220415                        Zobrazit protokol úlohy               XASSIST   12/22/25  16:31:02 UTC Str.       10
+
+  Název úlohy  . . . . . . . . :   QZRCSRVS        Uživatel  . . . . :   QUSER        Číslo  . . . . . . . . . . . :   088740
+  Popis úlohy  . . . . . . . . :   QZBSJOBD        Knihovna . . . . :    QSYS
+
+
+ID ZPRÁVY  TYP                     ZÁV  DATUM     ČAS                 Z PGM     KNIHOVNA    INST     DO PGM      KNIHOVNA    INST
+
+CPF5C61    Informace               00   12/22/25  15:23:08.192574  QZRCSRVS     QSYS        *STMT    QZRCSRVS    QSYS        *STMT
+                                     Od uživatele . . . . . . . :    VZUPKA
+                                     Z modulu  . . . . . . . . . :   QZRCRPC
+                                     Z procedury     . . . . . . :   LogRpcMessage
+                                     Příkaz . . . . . . . . . :      13
+                                     Do modulu . . . . . . . . . :   QZRCRPC
+                                     Do procedury  . . . . . . . :   LogRpcMessage
+                                     Příkaz . . . . . . . . . :      13
+                                     Zpráva  . . . . :   Client request - run program QSYS/QDBRTVFD.
+CPF5C61    Informace               00   12/22/25  15:23:08.208743  QZRCSRVS     QSYS        *STMT    QZRCSRVS    QSYS        *STMT
+                                     Od uživatele . . . . . . . :    VZUPKA
+                                     Z modulu  . . . . . . . . . :   QZRCRPC
+                                     Z procedury     . . . . . . :   LogRpcMessage
+                                     Příkaz . . . . . . . . . :      13
+                                     Do modulu . . . . . . . . . :   QZRCRPC
+                                     Do procedury  . . . . . . . :   LogRpcMessage
+                                     Příkaz . . . . . . . . . :      13
+                                     Zpráva  . . . . :   Client request - run program QSYS/QDBRTVFD.
+CPF5C61    Informace               00   12/22/25  15:23:08.225316  QZRCSRVS     QSYS        *STMT    QZRCSRVS    QSYS        *STMT
+                                     Od uživatele . . . . . . . :    VZUPKA
+                                     Z modulu  . . . . . . . . . :   QZRCRPC
+                                     Z procedury     . . . . . . :   LogRpcMessage
+                                     Příkaz . . . . . . . . . :      13
+                                     Do modulu . . . . . . . . . :   QZRCRPC
+                                     Do procedury  . . . . . . . :   LogRpcMessage
+                                     Příkaz . . . . . . . . . :      13
+                                     Zpráva  . . . . :   Client request - run program QSYS/QDBRTVFD.
+CPF5C61    Informace               00   12/22/25  15:23:08.242074  QZRCSRVS     QSYS        *STMT    QZRCSRVS    QSYS        *STMT
+                                     Od uživatele . . . . . . . :    VZUPKA
+                                     Z modulu  . . . . . . . . . :   QZRCRPC
+                                     Z procedury     . . . . . . :   LogRpcMessage
+                                     Příkaz . . . . . . . . . :      13
+                                     Do modulu . . . . . . . . . :   QZRCRPC
+                                     Do procedury  . . . . . . . :   LogRpcMessage
+                                     Příkaz . . . . . . . . . :      13
+                                     Zpráva  . . . . :   Client request - run program QSYS/QDBRTVFD.
+CPF5C61    Informace               00   12/22/25  15:23:08.259040  QZRCSRVS     QSYS        *STMT    QZRCSRVS    QSYS        *STMT
+                                     Od uživatele . . . . . . . :    VZUPKA
+                                     Z modulu  . . . . . . . . . :   QZRCRPC
+                                     Z procedury     . . . . . . :   LogRpcMessage
+                                     Příkaz . . . . . . . . . :      13
+                                     Do modulu . . . . . . . . . :   QZRCRPC
+                                     Do procedury  . . . . . . . :   LogRpcMessage
+                                     Příkaz . . . . . . . . . :      13
+                                     Zpráva  . . . . :   Client request - run program QSYS/QDBRTVFD.
+CPF5C61    Informace               00   12/22/25  15:23:08.275511  QZRCSRVS     QSYS        *STMT    QZRCSRVS    QSYS        *STMT
+                                     Od uživatele . . . . . . . :    VZUPKA
+                                     Z modulu  . . . . . . . . . :   QZRCRPC
+                                     Z procedury     . . . . . . :   LogRpcMessage
+                                     Příkaz . . . . . . . . . :      13
+                                     Do modulu . . . . . . . . . :   QZRCRPC
+                                     Do procedury  . . . . . . . :   LogRpcMessage
+                                     Příkaz . . . . . . . . . :      13
+                                     Zpráva  . . . . :   Client request - run program QSYS/QDBRTVFD.
+CPF5C61    Informace               00   12/22/25  15:23:08.298347  QZRCSRVS     QSYS        *STMT    QZRCSRVS    QSYS        *STMT
+                                     Od uživatele . . . . . . . :    VZUPKA
+                                     Z modulu  . . . . . . . . . :   QZRCRPC
+                                     Z procedury     . . . . . . :   LogRpcMessage
+ 5770SS1 V7R5M0 220415                        Zobrazit protokol úlohy               XASSIST   12/22/25  16:31:02 UTC Str.       11
+
+  Název úlohy  . . . . . . . . :   QZRCSRVS        Uživatel  . . . . :   QUSER        Číslo  . . . . . . . . . . . :   088740
+  Popis úlohy  . . . . . . . . :   QZBSJOBD        Knihovna . . . . :    QSYS
+
+
+ID ZPRÁVY  TYP                     ZÁV  DATUM     ČAS                 Z PGM     KNIHOVNA    INST     DO PGM      KNIHOVNA    INST
+
+                                     Příkaz . . . . . . . . . :      13
+                                     Do modulu . . . . . . . . . :   QZRCRPC
+                                     Do procedury  . . . . . . . :   LogRpcMessage
+                                     Příkaz . . . . . . . . . :      13
+                                     Zpráva  . . . . :   Client request - run program QSYS/QDBRTVFD.
+CPF5C61    Informace               00   12/22/25  15:23:08.315545  QZRCSRVS     QSYS        *STMT    QZRCSRVS    QSYS        *STMT
+                                     Od uživatele . . . . . . . :    VZUPKA
+                                     Z modulu  . . . . . . . . . :   QZRCRPC
+                                     Z procedury     . . . . . . :   LogRpcMessage
+                                     Příkaz . . . . . . . . . :      13
+                                     Do modulu . . . . . . . . . :   QZRCRPC
+                                     Do procedury  . . . . . . . :   LogRpcMessage
+                                     Příkaz . . . . . . . . . :      13
+                                     Zpráva  . . . . :   Client request - run program QSYS/QDBRTVFD.
+CPF5C61    Informace               00   12/22/25  15:23:16.537198  QZRCSRVS     QSYS        *STMT    QZRCSRVS    QSYS        *STMT
+                                     Od uživatele . . . . . . . :    VZUPKA
+                                     Z modulu  . . . . . . . . . :   QZRCRPC
+                                     Z procedury     . . . . . . :   LogRpcMessage
+                                     Příkaz . . . . . . . . . :      13
+                                     Do modulu . . . . . . . . . :   QZRCRPC
+                                     Do procedury  . . . . . . . :   LogRpcMessage
+                                     Příkaz . . . . . . . . . :      13
+                                     Zpráva  . . . . :   Client request - run program QSYS/QZRUCLSP.
+CPF5C62    Informace               00   12/22/25  16:27:04.747468  QZRCSRVS     QSYS        *STMT    QZRCSRVS    QSYS        *STMT
+                                     Od uživatele . . . . . . . :    VZUPKA
+                                     Z modulu  . . . . . . . . . :   QZRCRMTC
+                                     Z procedury     . . . . . . :   LogRmtcMessage
+                                     Příkaz . . . . . . . . . :      17
+                                     Do modulu . . . . . . . . . :   QZRCRMTC
+                                     Do procedury  . . . . . . . :   LogRmtcMessage
+                                     Příkaz . . . . . . . . . :      17
+                                     Zpráva  . . . . :   Client request - run command CPYFRMSTMF.
+CPCA081    Dokončení               00   12/22/25  16:27:04.787334  QP0LCCMN     QSYS        *STMT    QZRCSRVS    QSYS        *STMT
+                                     Od uživatele . . . . . . . :    VZUPKA
+                                     Z modulu  . . . . . . . . . :   QP0LCCMN
+                                     Z procedury     . . . . . . :   Qp0lCmnSnd__FPcT1iN21T3
+                                     Příkaz . . . . . . . . . :      10
+                                     Do modulu . . . . . . . . . :   QZRCRMTC
+                                     Do procedury  . . . . . . . :   RunCommand
+                                     Příkaz . . . . . . . . . :      109
+                                     Zpráva  . . . . :   Stream file copied to object.
+                                     Cause . . . . . :   Stream file /home/VZUPKA/.tmp2025-12-22 17:26:17.343939
+                                       was successfully copied to object
+                                       /QSYS.LIB/VZUPKA.LIB/QRPGLESRC.FILE/DYNSEL_N.MBR in CCSID (Coded Character
+                                       Set Identifier) 870.
+CPF5C62    Informace               00   12/22/25  16:27:18.607572  QZRCSRVS     QSYS        *STMT    QZRCSRVS    QSYS        *STMT
+                                     Od uživatele . . . . . . . :    VZUPKA
+                                     Z modulu  . . . . . . . . . :   QZRCRMTC
+                                     Z procedury     . . . . . . :   LogRmtcMessage
+                                     Příkaz . . . . . . . . . :      17
+                                     Do modulu . . . . . . . . . :   QZRCRMTC
+                                     Do procedury  . . . . . . . :   LogRmtcMessage
+                                     Příkaz . . . . . . . . . :      17
+                                     Zpráva  . . . . :   Client request - run command CHGLIBL.
+CPC2198    Dokončení               00   12/22/25  16:27:18.608112  QLICHLIB     QSYS        00BA     QZRCSRVS    QSYS        *STMT
+                                     Od uživatele . . . . . . . :    VZUPKA
+                                     Do modulu . . . . . . . . . :   QZRCRMTC
+                                     Do procedury  . . . . . . . :   RunCommand
+ 5770SS1 V7R5M0 220415                        Zobrazit protokol úlohy               XASSIST   12/22/25  16:31:02 UTC Str.       12
+
+  Název úlohy  . . . . . . . . :   QZRCSRVS        Uživatel  . . . . :   QUSER        Číslo  . . . . . . . . . . . :   088740
+  Popis úlohy  . . . . . . . . :   QZBSJOBD        Knihovna . . . . :    QSYS
+
+
+ID ZPRÁVY  TYP                     ZÁV  DATUM     ČAS                 Z PGM     KNIHOVNA    INST     DO PGM      KNIHOVNA    INST
+
+                                     Příkaz . . . . . . . . . :      109
+                                     Zpráva  . . . . :   Current library changed to VZUPKA.
+                                     Cause . . . . . :   The current library in the library list was changed to
+                                       VZUPKA.
+CPC2101    Dokončení               00   12/22/25  16:27:18.608124  QLICHLIB     QSYS        00D1     QZRCSRVS    QSYS        *STMT
+                                     Od uživatele . . . . . . . :    VZUPKA
+                                     Do modulu . . . . . . . . . :   QZRCRMTC
+                                     Do procedury  . . . . . . . :   RunCommand
+                                     Příkaz . . . . . . . . . :      109
+                                     Zpráva  . . . . :   Library list changed.
+                                     Cause . . . . . :   The user library list was replaced by the specified list
+                                       of libraries.
+CPF5C61    Informace               00   12/22/25  16:27:18.616676  QZRCSRVS     QSYS        *STMT    QZRCSRVS    QSYS        *STMT
+                                     Od uživatele . . . . . . . :    VZUPKA
+                                     Z modulu  . . . . . . . . . :   QZRCRPC
+                                     Z procedury     . . . . . . :   LogRpcMessage
+                                     Příkaz . . . . . . . . . :      13
+                                     Do modulu . . . . . . . . . :   QZRCRPC
+                                     Do procedury  . . . . . . . :   LogRpcMessage
+                                     Příkaz . . . . . . . . . :      13
+                                     Zpráva  . . . . :   Client request - run program QSYS/QUSRJOBI.
+CPF5C61    Informace               00   12/22/25  16:27:18.626024  QZRCSRVS     QSYS        *STMT    QZRCSRVS    QSYS        *STMT
+                                     Od uživatele . . . . . . . :    VZUPKA
+                                     Z modulu  . . . . . . . . . :   QZRCRPC
+                                     Z procedury     . . . . . . :   LogRpcMessage
+                                     Příkaz . . . . . . . . . :      13
+                                     Do modulu . . . . . . . . . :   QZRCRPC
+                                     Do procedury  . . . . . . . :   LogRpcMessage
+                                     Příkaz . . . . . . . . . :      13
+                                     Zpráva  . . . . :   Client request - run program QSYS/QWTCHGJB.
+CPF5C61    Informace               00   12/22/25  16:27:18.634480  QZRCSRVS     QSYS        *STMT    QZRCSRVS    QSYS        *STMT
+                                     Od uživatele . . . . . . . :    VZUPKA
+                                     Z modulu  . . . . . . . . . :   QZRCRPC
+                                     Z procedury     . . . . . . :   LogRpcMessage
+                                     Příkaz . . . . . . . . . :      13
+                                     Do modulu . . . . . . . . . :   QZRCRPC
+                                     Do procedury  . . . . . . . :   LogRpcMessage
+                                     Příkaz . . . . . . . . . :      13
+                                     Zpráva  . . . . :   Client request - run program QSYS/QUSRJOBI.
+CPF5C62    Informace               00   12/22/25  16:27:18.643457  QZRCSRVS     QSYS        *STMT    QZRCSRVS    QSYS        *STMT
+                                     Od uživatele . . . . . . . :    VZUPKA
+                                     Z modulu  . . . . . . . . . :   QZRCRMTC
+                                     Z procedury     . . . . . . :   LogRmtcMessage
+                                     Příkaz . . . . . . . . . :      17
+                                     Do modulu . . . . . . . . . :   QZRCRMTC
+                                     Do procedury  . . . . . . . :   LogRmtcMessage
+                                     Příkaz . . . . . . . . . :      17
+                                     Zpráva  . . . . :   Client request - run command CRTSQLRPGI.
+CPC7301    Dokončení               00   12/22/25  16:27:18.727782  QDDCPF       QSYS        054C     QSQPMAIN    QSYS        *STMT
+                                     Od uživatele . . . . . . . :    VZUPKA
+                                     Do modulu . . . . . . . . . :   QSQPMAIN
+                                     Do procedury  . . . . . . . :   CRTFILE
+                                     Příkaz . . . . . . . . . :      15206
+                                     Zpráva  . . . . :   File QSQLTEMP1 created in library QTEMP.
+CPC7305    Dokončení               00   12/22/25  16:27:18.738021  QDDCPFM      QSYS        005B     QSQPMAIN    QSYS        *STMT
+                                     Od uživatele . . . . . . . :    VZUPKA
+                                     Do modulu . . . . . . . . . :   QSQPMAIN
+                                     Do procedury  . . . . . . . :   CRTFILE
+ 5770SS1 V7R5M0 220415                        Zobrazit protokol úlohy               XASSIST   12/22/25  16:31:02 UTC Str.       13
+
+  Název úlohy  . . . . . . . . :   QZRCSRVS        Uživatel  . . . . :   QUSER        Číslo  . . . . . . . . . . . :   088740
+  Popis úlohy  . . . . . . . . :   QZBSJOBD        Knihovna . . . . :    QSYS
+
+
+ID ZPRÁVY  TYP                     ZÁV  DATUM     ČAS                 Z PGM     KNIHOVNA    INST     DO PGM      KNIHOVNA    INST
+
+                                     Příkaz . . . . . . . . . :      15206
+                                     Zpráva  . . . . :   Member DYNSEL_N added to file QSQLTEMP1 in QTEMP.
+CPI2119    Informace               00   12/22/25  16:27:19.497967  QLIINSRT     QSYS        0A54     QBNINSOB    QSYS        024C
+                                     Od uživatele . . . . . . . :    VZUPKA
+                                     Zpráva  . . . . :   AUT and USRPRF parameter values were ignored.
+                                     Cause . . . . . :   The AUT and USRPRF parameter values were ignored because
+                                       REPLACE(*YES) was specified.  Therefore, the existing object was used as the
+                                       source of authority.  All private and public authorities, the USRPRF
+                                       attribute and the USEADPAUT attribute were copied from the existing object
+                                       to the new object DYNSEL_N type *PGM in library VZUPKA. Recovery  . . . :
+                                       Display the object authority (DSPOBJAUT command) to determine if the
+                                       authority for object DYNSEL_N type *PGM in library VZUPKA needs to be
+                                       changed.  Grant object authority (GRTOBJAUT command) or revoke object
+                                       authority (RVKOBJAUT command) to change the authority for object DYNSEL_N
+                                       type *PGM in library VZUPKA if needed.
+CPI2121    Informace               00   12/22/25  16:27:19.498834  QLIREINS     QSYS        02DD     QLIINSRT    QSYS        07C0
+                                     Od uživatele . . . . . . . :    VZUPKA
+                                     Zpráva  . . . . :   Replaced object DYNSEL_N type *PGM was moved to QRPLOBJ.
+                                     Cause . . . . . :   Replaced object DYNSEL_N type *PGM from the VZUPKA library
+                                       was renamed to QA62EADC68 and moved to the QRPLOBJ library. Recovery  . . .
+                                       :   If the replaced object is needed, you can use the Move Object (MOVOBJ)
+                                       command to move the object from the QRPLOBJ library into another library.
+                                       The QRPLOBJ library is cleared during the next initial program load (IPL) of
+                                       the system. The QRPLxxxxx library (where 'xxxxx' is the number of a primary
+                                       auxiliary storage pool (ASP)) is cleared during the next vary on of the ASP
+                                       device.
+RNS9304    Dokončení               00   12/22/25  16:27:19.528303  QRN4CPP      QDEVTOOLS   *STMT    QZRCSRVS    QSYS        *STMT
+                                     Od uživatele . . . . . . . :    VZUPKA
+                                     Z modulu  . . . . . . . . . :   GRP4CPP
+                                     Z procedury     . . . . . . :   cleanup
+                                     Příkaz . . . . . . . . . :      19
+                                     Do modulu . . . . . . . . . :   QZRCRMTC
+                                     Do procedury  . . . . . . . :   RunCommand
+                                     Příkaz . . . . . . . . . :      109
+                                     Zpráva  . . . . :   Program DYNSEL_N placed in library VZUPKA. 00 highest
+                                       severity. Created on 12/22/25 at 16:27:19.
+                                     Cause . . . . . :   Program DYNSEL_N was successfully created in library
+                                       VZUPKA. The highest message severity that resulted was 00. The program
+                                       creation date and time are 12/22/25 and 16:27:19.
+CPC0904    Dokončení               00   12/22/25  16:27:19.538082  QWCCCRVC     QSYS        0095     QRN4CPP     QDEVTOOLS   *STMT
+                                     Od uživatele . . . . . . . :    VZUPKA
+                                     Do modulu . . . . . . . . . :   GRP4CPP
+                                     Do procedury  . . . . . . . :   update_dtaara
+                                     Příkaz . . . . . . . . . :      8
+                                     Zpráva  . . . . :   Datová oblast RETURNCODE vytvořena v knihovně QTEMP.
+CPF5C62    Informace               00   12/22/25  16:27:41.214418  QZRCSRVS     QSYS        *STMT    QZRCSRVS    QSYS        *STMT
+                                     Od uživatele . . . . . . . :    VZUPKA
+                                     Z modulu  . . . . . . . . . :   QZRCRMTC
+                                     Z procedury     . . . . . . :   LogRmtcMessage
+                                     Příkaz . . . . . . . . . :      17
+                                     Do modulu . . . . . . . . . :   QZRCRMTC
+                                     Do procedury  . . . . . . . :   LogRmtcMessage
+                                     Příkaz . . . . . . . . . :      17
+                                     Zpráva  . . . . :   Client request - run command CHGLIBL.
+CPC2198    Dokončení               00   12/22/25  16:27:41.214945  QLICHLIB     QSYS        00BA     QZRCSRVS    QSYS        *STMT
+                                     Od uživatele . . . . . . . :    VZUPKA
+                                     Do modulu . . . . . . . . . :   QZRCRMTC
+                                     Do procedury  . . . . . . . :   RunCommand
+ 5770SS1 V7R5M0 220415                        Zobrazit protokol úlohy               XASSIST   12/22/25  16:31:02 UTC Str.       14
+
+  Název úlohy  . . . . . . . . :   QZRCSRVS        Uživatel  . . . . :   QUSER        Číslo  . . . . . . . . . . . :   088740
+  Popis úlohy  . . . . . . . . :   QZBSJOBD        Knihovna . . . . :    QSYS
+
+
+ID ZPRÁVY  TYP                     ZÁV  DATUM     ČAS                 Z PGM     KNIHOVNA    INST     DO PGM      KNIHOVNA    INST
+
+                                     Příkaz . . . . . . . . . :      109
+                                     Zpráva  . . . . :   Current library changed to VZUPKA.
+                                     Cause . . . . . :   The current library in the library list was changed to
+                                       VZUPKA.
+CPC2101    Dokončení               00   12/22/25  16:27:41.214957  QLICHLIB     QSYS        00D1     QZRCSRVS    QSYS        *STMT
+                                     Od uživatele . . . . . . . :    VZUPKA
+                                     Do modulu . . . . . . . . . :   QZRCRMTC
+                                     Do procedury  . . . . . . . :   RunCommand
+                                     Příkaz . . . . . . . . . :      109
+                                     Zpráva  . . . . :   Library list changed.
+                                     Cause . . . . . :   The user library list was replaced by the specified list
+                                       of libraries.
+CPF5C61    Informace               00   12/22/25  16:27:41.223657  QZRCSRVS     QSYS        *STMT    QZRCSRVS    QSYS        *STMT
+                                     Od uživatele . . . . . . . :    VZUPKA
+                                     Z modulu  . . . . . . . . . :   QZRCRPC
+                                     Z procedury     . . . . . . :   LogRpcMessage
+                                     Příkaz . . . . . . . . . :      13
+                                     Do modulu . . . . . . . . . :   QZRCRPC
+                                     Do procedury  . . . . . . . :   LogRpcMessage
+                                     Příkaz . . . . . . . . . :      13
+                                     Zpráva  . . . . :   Client request - run program QSYS/QUSRJOBI.
+CPF5C61    Informace               00   12/22/25  16:27:41.232635  QZRCSRVS     QSYS        *STMT    QZRCSRVS    QSYS        *STMT
+                                     Od uživatele . . . . . . . :    VZUPKA
+                                     Z modulu  . . . . . . . . . :   QZRCRPC
+                                     Z procedury     . . . . . . :   LogRpcMessage
+                                     Příkaz . . . . . . . . . :      13
+                                     Do modulu . . . . . . . . . :   QZRCRPC
+                                     Do procedury  . . . . . . . :   LogRpcMessage
+                                     Příkaz . . . . . . . . . :      13
+                                     Zpráva  . . . . :   Client request - run program QSYS/QWTCHGJB.
+CPF5C61    Informace               00   12/22/25  16:27:41.241375  QZRCSRVS     QSYS        *STMT    QZRCSRVS    QSYS        *STMT
+                                     Od uživatele . . . . . . . :    VZUPKA
+                                     Z modulu  . . . . . . . . . :   QZRCRPC
+                                     Z procedury     . . . . . . :   LogRpcMessage
+                                     Příkaz . . . . . . . . . :      13
+                                     Do modulu . . . . . . . . . :   QZRCRPC
+                                     Do procedury  . . . . . . . :   LogRpcMessage
+                                     Příkaz . . . . . . . . . :      13
+                                     Zpráva  . . . . :   Client request - run program QSYS/QUSRJOBI.
+CPF5C62    Informace               00   12/22/25  16:27:41.249679  QZRCSRVS     QSYS        *STMT    QZRCSRVS    QSYS        *STMT
+                                     Od uživatele . . . . . . . :    VZUPKA
+                                     Z modulu  . . . . . . . . . :   QZRCRMTC
+                                     Z procedury     . . . . . . :   LogRmtcMessage
+                                     Příkaz . . . . . . . . . :      17
+                                     Do modulu . . . . . . . . . :   QZRCRMTC
+                                     Do procedury  . . . . . . . :   LogRmtcMessage
+                                     Příkaz . . . . . . . . . :      17
+                                     Zpráva  . . . . :   Client request - run command call.
+CPF4101    Únik                    40   12/22/25  16:27:41.257690  QDMSIGNL     QSYS        007A     DYNSEL_N    VZUPKA      *STMT
+                                     Od uživatele . . . . . . . :    VZUPKA
+                                     Do modulu . . . . . . . . . :   DYNSEL_N
+                                     Do procedury  . . . . . . . :   DYNSEL_N
+                                     Příkaz . . . . . . . . . :      1000001
+                                     Zpráva  . . . . :   Soubor QPRINT v knihovně *LIBL nenalezen, nebo chybí
+                                       soubor vstupních dat.
+                                     Příčina . . . . :   Soubor nebyl otevřen. Kód příčiny je 03. Kódy příčiny a
+                                       jejich význam: 01 - Knihovna neexistuje. 02 - Soubor neexistuje. Knihovna
+                                       neexistuje. 03 - Soubor neexistuje. Knihovna zadána jako *LIBL. 04 - Soubor
+ 5770SS1 V7R5M0 220415                        Zobrazit protokol úlohy               XASSIST   12/22/25  16:31:02 UTC Str.       15
+
+  Název úlohy  . . . . . . . . :   QZRCSRVS        Uživatel  . . . . :   QUSER        Číslo  . . . . . . . . . . . :   088740
+  Popis úlohy  . . . . . . . . :   QZBSJOBD        Knihovna . . . . :    QSYS
+
+
+ID ZPRÁVY  TYP                     ZÁV  DATUM     ČAS                 Z PGM     KNIHOVNA    INST     DO PGM      KNIHOVNA    INST
+
+                                       byl uložen s uvolněnou pamětí. 07 - Soubor vložených dat neexistuje. 08 -
+                                       Disketový soubor SPOOL(*YES) je otevřen pro operaci čtení a soubor vložených
+                                       dat neexistuje. 10 - Soubor na vzdáleném systému neexistuje. 11 - Knihovna
+                                       na vzdáleném systému neexistuje. 14 - Člen byl uložen s uvolněnou pamětí na
+                                       vzdáleném systému. Náprava . . . . :   Na základě zobrazeného kódu příčiny
+                                       proveďte jednu z následujících možností a zopakujte požadavek: 01 - Pomocí
+                                       odpovídajícího příkazu přepisu nastavení souboru změňte název knihovny, nebo
+                                       vytvořte knihovnu (příkaz CRTLIB) a soubor s odpovídajícím názvem. 02 -
+                                       Pomocí odpovídajícího příkazu přepisu nastavení souboru změňte název
+                                       souboru, název knihovny nebo oba názvy. 03 - Přidejte knihovnu do seznamu
+                                       knihoven (příkaz ADDLIBLE), nebo pomocí odpovídajícího příkazu přepisu
+                                       nastavení souboru změňte název souboru, název knihovny nebo oba názvy. 04 -
+                                       Obnovte soubor (příkaz RSTOBJ), nebo pomocí odpovídajícího příkazu přepisu
+                                       nastavení souboru změňte název souboru, název knihovny nebo oba názvy. 07 -
+                                       Přidejte soubor vstupních dat (příkaz DATA), nebo pomocí odpovídajícího
+                                       příkazu přepisu nastavení souboru změňte název souboru, název knihovny nebo
+                                       oba názvy. 08 - V příkazu Přepis nastavení disketového souboru (OVRDKTF)
+                                       uveďte pro parametr SPOOL hodnotu *NO, nebo přidejte soubor vstupních dat
+                                       (příkaz DATA), nebo pomocí odpovídajícího příkazu přepisu nastavení souboru
+                                       změňte název souboru, název knihovny nebo oba názvy. 10 - Pomocí příkazu
+                                       Změna souboru DDM (CHGDDMF) změňte název souboru v souboru správy
+                                       distribuovaných dat (DDM), nebo použijte nezbytné procedury, aby soubor
+                                       existoval na vzdáleném systému. 11 - Pomocí příkazu Změna souboru DDM
+                                       (CHGDDMF) změňte název souboru v souboru správy distribuovaných dat (DDM),
+                                       nebo použijte nezbytné procedury, aby knihovna existovala na vzdáleném
+                                       systému. 14 - Obnovte soubor obsahující člen (příkaz RSTOBJ), nebo odstraňte
+                                       soubor (příkaz DLTF) a znovu vytvořte soubor (CRTLF, CRTPF nebo CRTSRCPF).
+RNX1216    Únik                    99   12/22/25  16:27:41.257917  QRNXIE       QSYS        *STMT    DYNSEL_N    VZUPKA      *STMT
+                                     Od uživatele . . . . . . . :    VZUPKA
+                                     Z modulu  . . . . . . . . . :   QRNXMSG
+                                     Z procedury     . . . . . . :   SignalException
+                                     Příkaz . . . . . . . . . :      22
+                                     Do modulu . . . . . . . . . :   DYNSEL_N
+                                     Do procedury  . . . . . . . :   DYNSEL_N
+                                     Příkaz . . . . . . . . . :      1000001
+                                     Zpráva  . . . . :   Error message CPF4101 appeared during OPEN for file
+                                       QPRINT.
+                                     Cause . . . . . :   RPG procedure DYNSEL_N in program VZUPKA/DYNSEL_N received
+                                       the message CPF4101 while performing an implicit OPEN operation on file
+                                       QPRINT. The actual file is QPRINT. Recovery  . . . :   Check the job log for
+                                       a complete description of message CPF4101, and contact the person
+                                       responsible for program maintenance. If the file has a device type of
+                                       SPECIAL, there may be no message in the job log.
+RNQ1216    Kopie odesílatele       99   12/22/25  16:27:41.258144  QRNXIE       QSYS        *STMT    QRNXIE      QSYS        *STMT
+                                     Od uživatele . . . . . . . :    VZUPKA
+                                     Z modulu  . . . . . . . . . :   QRNXMSG
+                                     Z procedury     . . . . . . :   InqMsg
+                                     Příkaz . . . . . . . . . :      8
+                                     Do modulu . . . . . . . . . :   QRNXMSG
+                                     Do procedury  . . . . . . . :   InqMsg
+                                     Příkaz . . . . . . . . . :      8
+                                     Zpráva  . . . . :   Error message CPF4101 appeared during OPEN for file QPRINT
+                                       (C S D F).
+                                     Cause . . . . . :   RPG procedure DYNSEL_N in program VZUPKA/DYNSEL_N received
+                                       the message CPF4101 while performing an implicit OPEN operation on file
+                                       QPRINT. The actual file is QPRINT. Recovery  . . . :   Check the job log for
+                                       a complete description of message CPF4101, and contact the person
+                                       responsible for program maintenance. If the file has a device type of
+ 5770SS1 V7R5M0 220415                        Zobrazit protokol úlohy               XASSIST   12/22/25  16:31:02 UTC Str.       16
+
+  Název úlohy  . . . . . . . . :   QZRCSRVS        Uživatel  . . . . :   QUSER        Číslo  . . . . . . . . . . . :   088740
+  Popis úlohy  . . . . . . . . :   QZBSJOBD        Knihovna . . . . :    QSYS
+
+
+ID ZPRÁVY  TYP                     ZÁV  DATUM     ČAS                 Z PGM     KNIHOVNA    INST     DO PGM      KNIHOVNA    INST
+
+                                       SPECIAL, there may be no message in the job log. Possible choices for
+                                       replying to message . . . . . . . . . . . . . . . :   D -- Obtain RPG
+                                       formatted printout of system storage. S -- Obtain printout of system
+                                       storage. F -- Obtain full formatted printout of system storage. C -- Cancel.
+*NONE      Odpověď                      12/22/25  16:27:41.258951  QMHSNINQ     QSYS        1066     QRNXIE      QSYS        *STMT
+                                     Od uživatele . . . . . . . :    VZUPKA
+                                     Do modulu . . . . . . . . . :   QRNXMSG
+                                     Do procedury  . . . . . . . :   InqMsg
+                                     Příkaz . . . . . . . . . :      8
+                                     Zpráva  . . . . :   C
+CEE9901    Únik                    30   12/22/25  16:27:41.259042  QLEAWI       QSYS        *STMT    QZRCSRVS    QSYS        *STMT
+                                     Od uživatele . . . . . . . :    VZUPKA
+                                     Z modulu  . . . . . . . . . :   QLEDEH
+                                     Z procedury     . . . . . . :   Q LE leDefaultEh2
+                                     Příkaz . . . . . . . . . :      175
+                                     Do modulu . . . . . . . . . :   QZRCRMTC
+                                     Do procedury  . . . . . . . :   RunCommand
+                                     Příkaz . . . . . . . . . :      109
+                                     Zpráva  . . . . :   Application error.  RNX1216 unmonitored by DYNSEL_N at
+                                       statement 0001000001, instruction X'0000'.
+                                     Cause . . . . . :   The application ended abnormally because an exception
+                                       occurred and was not handled.  The name of the program to which the
+                                       unhandled exception is sent is DYNSEL_N DYNSEL_N DYNSEL_N. The program was
+                                       stopped at the high-level language statement number(s) 0001000001 at the
+                                       time the message was sent.  If more than one statement number is shown, the
+                                       program is an optimized ILE program.  Optimization does not allow a single
+                                       statement number to be determined.  If *N is shown as a value, it means the
+                                       real value was not available. Recovery  . . . :   See the low level messages
+                                       previously listed to locate the cause of the exception.  Correct any errors,
+                                       and then try the request again.
+CPF5C62    Informace               00   12/22/25  16:28:45.478161  QZRCSRVS     QSYS        *STMT    QZRCSRVS    QSYS        *STMT
+                                     Od uživatele . . . . . . . :    VZUPKA
+                                     Z modulu  . . . . . . . . . :   QZRCRMTC
+                                     Z procedury     . . . . . . :   LogRmtcMessage
+                                     Příkaz . . . . . . . . . :      17
+                                     Do modulu . . . . . . . . . :   QZRCRMTC
+                                     Do procedury  . . . . . . . :   LogRmtcMessage
+                                     Příkaz . . . . . . . . . :      17
+                                     Zpráva  . . . . :   Client request - run command DSPJOBLOG.
+CPF5C62    Informace               00   12/22/25  16:29:29.891824  QZRCSRVS     QSYS        *STMT    QZRCSRVS    QSYS        *STMT
+                                     Od uživatele . . . . . . . :    VZUPKA
+                                     Z modulu  . . . . . . . . . :   QZRCRMTC
+                                     Z procedury     . . . . . . :   LogRmtcMessage
+                                     Příkaz . . . . . . . . . :      17
+                                     Do modulu . . . . . . . . . :   QZRCRMTC
+                                     Do procedury  . . . . . . . :   LogRmtcMessage
+                                     Příkaz . . . . . . . . . :      17
+                                     Zpráva  . . . . :   Client request - run command DSPJOBLOG.
+CPF5C61    Informace               00   12/22/25  16:29:57.713227  QZRCSRVS     QSYS        *STMT    QZRCSRVS    QSYS        *STMT
+                                     Od uživatele . . . . . . . :    VZUPKA
+                                     Z modulu  . . . . . . . . . :   QZRCRPC
+                                     Z procedury     . . . . . . :   LogRpcMessage
+                                     Příkaz . . . . . . . . . :      13
+                                     Do modulu . . . . . . . . . :   QZRCRPC
+                                     Do procedury  . . . . . . . :   LogRpcMessage
+                                     Příkaz . . . . . . . . . :      13
+                                     Zpráva  . . . . :   Client request - run program QSYS/QZRUCLSP.
+CPF5C62    Informace               00   12/22/25  16:30:46.684213  QZRCSRVS     QSYS        *STMT    QZRCSRVS    QSYS        *STMT
+ 5770SS1 V7R5M0 220415                        Zobrazit protokol úlohy               XASSIST   12/22/25  16:31:02 UTC Str.       17
+
+  Název úlohy  . . . . . . . . :   QZRCSRVS        Uživatel  . . . . :   QUSER        Číslo  . . . . . . . . . . . :   088740
+  Popis úlohy  . . . . . . . . :   QZBSJOBD        Knihovna . . . . :    QSYS
+
+
+ID ZPRÁVY  TYP                     ZÁV  DATUM     ČAS                 Z PGM     KNIHOVNA    INST     DO PGM      KNIHOVNA    INST
+
+                                     Od uživatele . . . . . . . :    VZUPKA
+                                     Z modulu  . . . . . . . . . :   QZRCRMTC
+                                     Z procedury     . . . . . . :   LogRmtcMessage
+                                     Příkaz . . . . . . . . . :      17
+                                     Do modulu . . . . . . . . . :   QZRCRMTC
+                                     Do procedury  . . . . . . . :   LogRmtcMessage
+                                     Příkaz . . . . . . . . . :      17
+                                     Zpráva  . . . . :   Client request - run command CHGLIBL.
+CPC2198    Dokončení               00   12/22/25  16:30:46.684743  QLICHLIB     QSYS        00BA     QZRCSRVS    QSYS        *STMT
+                                     Od uživatele . . . . . . . :    VZUPKA
+                                     Do modulu . . . . . . . . . :   QZRCRMTC
+                                     Do procedury  . . . . . . . :   RunCommand
+                                     Příkaz . . . . . . . . . :      109
+                                     Zpráva  . . . . :   Current library changed to VZUPKA.
+                                     Cause . . . . . :   The current library in the library list was changed to
+                                       VZUPKA.
+CPC2101    Dokončení               00   12/22/25  16:30:46.684754  QLICHLIB     QSYS        00D1     QZRCSRVS    QSYS        *STMT
+                                     Od uživatele . . . . . . . :    VZUPKA
+                                     Do modulu . . . . . . . . . :   QZRCRMTC
+                                     Do procedury  . . . . . . . :   RunCommand
+                                     Příkaz . . . . . . . . . :      109
+                                     Zpráva  . . . . :   Library list changed.
+                                     Cause . . . . . :   The user library list was replaced by the specified list
+                                       of libraries.
+CPF5C61    Informace               00   12/22/25  16:30:46.693310  QZRCSRVS     QSYS        *STMT    QZRCSRVS    QSYS        *STMT
+                                     Od uživatele . . . . . . . :    VZUPKA
+                                     Z modulu  . . . . . . . . . :   QZRCRPC
+                                     Z procedury     . . . . . . :   LogRpcMessage
+                                     Příkaz . . . . . . . . . :      13
+                                     Do modulu . . . . . . . . . :   QZRCRPC
+                                     Do procedury  . . . . . . . :   LogRpcMessage
+                                     Příkaz . . . . . . . . . :      13
+                                     Zpráva  . . . . :   Client request - run program QSYS/QUSRJOBI.
+CPF5C61    Informace               00   12/22/25  16:30:46.702597  QZRCSRVS     QSYS        *STMT    QZRCSRVS    QSYS        *STMT
+                                     Od uživatele . . . . . . . :    VZUPKA
+                                     Z modulu  . . . . . . . . . :   QZRCRPC
+                                     Z procedury     . . . . . . :   LogRpcMessage
+                                     Příkaz . . . . . . . . . :      13
+                                     Do modulu . . . . . . . . . :   QZRCRPC
+                                     Do procedury  . . . . . . . :   LogRpcMessage
+                                     Příkaz . . . . . . . . . :      13
+                                     Zpráva  . . . . :   Client request - run program QSYS/QWTCHGJB.
+CPF5C61    Informace               00   12/22/25  16:30:46.711075  QZRCSRVS     QSYS        *STMT    QZRCSRVS    QSYS        *STMT
+                                     Od uživatele . . . . . . . :    VZUPKA
+                                     Z modulu  . . . . . . . . . :   QZRCRPC
+                                     Z procedury     . . . . . . :   LogRpcMessage
+                                     Příkaz . . . . . . . . . :      13
+                                     Do modulu . . . . . . . . . :   QZRCRPC
+                                     Do procedury  . . . . . . . :   LogRpcMessage
+                                     Příkaz . . . . . . . . . :      13
+                                     Zpráva  . . . . :   Client request - run program QSYS/QUSRJOBI.
+CPF5C62    Informace               00   12/22/25  16:30:46.719861  QZRCSRVS     QSYS        *STMT    QZRCSRVS    QSYS        *STMT
+                                     Od uživatele . . . . . . . :    VZUPKA
+                                     Z modulu  . . . . . . . . . :   QZRCRMTC
+                                     Z procedury     . . . . . . :   LogRmtcMessage
+                                     Příkaz . . . . . . . . . :      17
+                                     Do modulu . . . . . . . . . :   QZRCRMTC
+                                     Do procedury  . . . . . . . :   LogRmtcMessage
+ 5770SS1 V7R5M0 220415                        Zobrazit protokol úlohy               XASSIST   12/22/25  16:31:02 UTC Str.       18
+
+  Název úlohy  . . . . . . . . :   QZRCSRVS        Uživatel  . . . . :   QUSER        Číslo  . . . . . . . . . . . :   088740
+  Popis úlohy  . . . . . . . . :   QZBSJOBD        Knihovna . . . . :    QSYS
+
+
+ID ZPRÁVY  TYP                     ZÁV  DATUM     ČAS                 Z PGM     KNIHOVNA    INST     DO PGM      KNIHOVNA    INST
+
+                                     Příkaz . . . . . . . . . :      17
+                                     Zpráva  . . . . :   Client request - run command call.
+CPF4101    Únik                    40   12/22/25  16:30:46.727311  QDMSIGNL     QSYS        007A     DYNSEL_N    VZUPKA      *STMT
+                                     Od uživatele . . . . . . . :    VZUPKA
+                                     Do modulu . . . . . . . . . :   DYNSEL_N
+                                     Do procedury  . . . . . . . :   DYNSEL_N
+                                     Příkaz . . . . . . . . . :      1000001
+                                     Zpráva  . . . . :   Soubor QPRINT v knihovně *LIBL nenalezen, nebo chybí
+                                       soubor vstupních dat.
+                                     Příčina . . . . :   Soubor nebyl otevřen. Kód příčiny je 03. Kódy příčiny a
+                                       jejich význam: 01 - Knihovna neexistuje. 02 - Soubor neexistuje. Knihovna
+                                       neexistuje. 03 - Soubor neexistuje. Knihovna zadána jako *LIBL. 04 - Soubor
+                                       byl uložen s uvolněnou pamětí. 07 - Soubor vložených dat neexistuje. 08 -
+                                       Disketový soubor SPOOL(*YES) je otevřen pro operaci čtení a soubor vložených
+                                       dat neexistuje. 10 - Soubor na vzdáleném systému neexistuje. 11 - Knihovna
+                                       na vzdáleném systému neexistuje. 14 - Člen byl uložen s uvolněnou pamětí na
+                                       vzdáleném systému. Náprava . . . . :   Na základě zobrazeného kódu příčiny
+                                       proveďte jednu z následujících možností a zopakujte požadavek: 01 - Pomocí
+                                       odpovídajícího příkazu přepisu nastavení souboru změňte název knihovny, nebo
+                                       vytvořte knihovnu (příkaz CRTLIB) a soubor s odpovídajícím názvem. 02 -
+                                       Pomocí odpovídajícího příkazu přepisu nastavení souboru změňte název
+                                       souboru, název knihovny nebo oba názvy. 03 - Přidejte knihovnu do seznamu
+                                       knihoven (příkaz ADDLIBLE), nebo pomocí odpovídajícího příkazu přepisu
+                                       nastavení souboru změňte název souboru, název knihovny nebo oba názvy. 04 -
+                                       Obnovte soubor (příkaz RSTOBJ), nebo pomocí odpovídajícího příkazu přepisu
+                                       nastavení souboru změňte název souboru, název knihovny nebo oba názvy. 07 -
+                                       Přidejte soubor vstupních dat (příkaz DATA), nebo pomocí odpovídajícího
+                                       příkazu přepisu nastavení souboru změňte název souboru, název knihovny nebo
+                                       oba názvy. 08 - V příkazu Přepis nastavení disketového souboru (OVRDKTF)
+                                       uveďte pro parametr SPOOL hodnotu *NO, nebo přidejte soubor vstupních dat
+                                       (příkaz DATA), nebo pomocí odpovídajícího příkazu přepisu nastavení souboru
+                                       změňte název souboru, název knihovny nebo oba názvy. 10 - Pomocí příkazu
+                                       Změna souboru DDM (CHGDDMF) změňte název souboru v souboru správy
+                                       distribuovaných dat (DDM), nebo použijte nezbytné procedury, aby soubor
+                                       existoval na vzdáleném systému. 11 - Pomocí příkazu Změna souboru DDM
+                                       (CHGDDMF) změňte název souboru v souboru správy distribuovaných dat (DDM),
+                                       nebo použijte nezbytné procedury, aby knihovna existovala na vzdáleném
+                                       systému. 14 - Obnovte soubor obsahující člen (příkaz RSTOBJ), nebo odstraňte
+                                       soubor (příkaz DLTF) a znovu vytvořte soubor (CRTLF, CRTPF nebo CRTSRCPF).
+RNX1216    Únik                    99   12/22/25  16:30:46.727517  QRNXIE       QSYS        *STMT    DYNSEL_N    VZUPKA      *STMT
+                                     Od uživatele . . . . . . . :    VZUPKA
+                                     Z modulu  . . . . . . . . . :   QRNXMSG
+                                     Z procedury     . . . . . . :   SignalException
+                                     Příkaz . . . . . . . . . :      22
+                                     Do modulu . . . . . . . . . :   DYNSEL_N
+                                     Do procedury  . . . . . . . :   DYNSEL_N
+                                     Příkaz . . . . . . . . . :      1000001
+                                     Zpráva  . . . . :   Error message CPF4101 appeared during OPEN for file
+                                       QPRINT.
+                                     Cause . . . . . :   RPG procedure DYNSEL_N in program VZUPKA/DYNSEL_N received
+                                       the message CPF4101 while performing an implicit OPEN operation on file
+                                       QPRINT. The actual file is QPRINT. Recovery  . . . :   Check the job log for
+                                       a complete description of message CPF4101, and contact the person
+                                       responsible for program maintenance. If the file has a device type of
+                                       SPECIAL, there may be no message in the job log.
+RNQ1216    Kopie odesílatele       99   12/22/25  16:30:46.727728  QRNXIE       QSYS        *STMT    QRNXIE      QSYS        *STMT
+                                     Od uživatele . . . . . . . :    VZUPKA
+                                     Z modulu  . . . . . . . . . :   QRNXMSG
+ 5770SS1 V7R5M0 220415                        Zobrazit protokol úlohy               XASSIST   12/22/25  16:31:02 UTC Str.       19
+
+  Název úlohy  . . . . . . . . :   QZRCSRVS        Uživatel  . . . . :   QUSER        Číslo  . . . . . . . . . . . :   088740
+  Popis úlohy  . . . . . . . . :   QZBSJOBD        Knihovna . . . . :    QSYS
+
+
+ID ZPRÁVY  TYP                     ZÁV  DATUM     ČAS                 Z PGM     KNIHOVNA    INST     DO PGM      KNIHOVNA    INST
+
+                                     Z procedury     . . . . . . :   InqMsg
+                                     Příkaz . . . . . . . . . :      8
+                                     Do modulu . . . . . . . . . :   QRNXMSG
+                                     Do procedury  . . . . . . . :   InqMsg
+                                     Příkaz . . . . . . . . . :      8
+                                     Zpráva  . . . . :   Error message CPF4101 appeared during OPEN for file QPRINT
+                                       (C S D F).
+                                     Cause . . . . . :   RPG procedure DYNSEL_N in program VZUPKA/DYNSEL_N received
+                                       the message CPF4101 while performing an implicit OPEN operation on file
+                                       QPRINT. The actual file is QPRINT. Recovery  . . . :   Check the job log for
+                                       a complete description of message CPF4101, and contact the person
+                                       responsible for program maintenance. If the file has a device type of
+                                       SPECIAL, there may be no message in the job log. Possible choices for
+                                       replying to message . . . . . . . . . . . . . . . :   D -- Obtain RPG
+                                       formatted printout of system storage. S -- Obtain printout of system
+                                       storage. F -- Obtain full formatted printout of system storage. C -- Cancel.
+*NONE      Odpověď                      12/22/25  16:30:46.728403  QMHSNINQ     QSYS        1066     QRNXIE      QSYS        *STMT
+                                     Od uživatele . . . . . . . :    VZUPKA
+                                     Do modulu . . . . . . . . . :   QRNXMSG
+                                     Do procedury  . . . . . . . :   InqMsg
+                                     Příkaz . . . . . . . . . :      8
+                                     Zpráva  . . . . :   C
+CEE9901    Únik                    30   12/22/25  16:30:46.728492  QLEAWI       QSYS        *STMT    QZRCSRVS    QSYS        *STMT
+                                     Od uživatele . . . . . . . :    VZUPKA
+                                     Z modulu  . . . . . . . . . :   QLEDEH
+                                     Z procedury     . . . . . . :   Q LE leDefaultEh2
+                                     Příkaz . . . . . . . . . :      175
+                                     Do modulu . . . . . . . . . :   QZRCRMTC
+                                     Do procedury  . . . . . . . :   RunCommand
+                                     Příkaz . . . . . . . . . :      109
+                                     Zpráva  . . . . :   Application error.  RNX1216 unmonitored by DYNSEL_N at
+                                       statement 0001000001, instruction X'0000'.
+                                     Cause . . . . . :   The application ended abnormally because an exception
+                                       occurred and was not handled.  The name of the program to which the
+                                       unhandled exception is sent is DYNSEL_N DYNSEL_N DYNSEL_N. The program was
+                                       stopped at the high-level language statement number(s) 0001000001 at the
+                                       time the message was sent.  If more than one statement number is shown, the
+                                       program is an optimized ILE program.  Optimization does not allow a single
+                                       statement number to be determined.  If *N is shown as a value, it means the
+                                       real value was not available. Recovery  . . . :   See the low level messages
+                                       previously listed to locate the cause of the exception.  Correct any errors,
+                                       and then try the request again.
+CPF5C62    Informace               00   12/22/25  16:31:02.022163  QZRCSRVS     QSYS        *STMT    QZRCSRVS    QSYS        *STMT
+                                     Od uživatele . . . . . . . :    VZUPKA
+                                     Z modulu  . . . . . . . . . :   QZRCRMTC
+                                     Z procedury     . . . . . . :   LogRmtcMessage
+                                     Příkaz . . . . . . . . . :      17
+                                     Do modulu . . . . . . . . . :   QZRCRMTC
+                                     Do procedury  . . . . . . . :   LogRmtcMessage
+                                     Příkaz . . . . . . . . . :      17
+                                     Zpráva  . . . . :   Client request - run command DSPJOBLOG.

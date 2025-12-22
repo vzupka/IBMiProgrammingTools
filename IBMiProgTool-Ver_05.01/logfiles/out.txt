@@ -1,0 +1,63 @@
+/QDLS: Access to request was denied.
+libList VZUPKA
+libList VZSQLPGM
+libList VZSQL
+libList KOLEKCE
+currentJob.getSubsystem() /QSYS.LIB/QUSRWRK.SBSD
+currentJob.getName() QZRCSRVS
+currentJob.getUser() QUSER
+currentJob.getNumber() 088740
+currentJob.getLogingText() *YES
+currentJob.getLoggingCLPrograms() *YES
+currentJob.getInquiryMessageReply() *DFT
+libList VZUPKA
+libList VZSQLPGM
+libList VZSQL
+libList KOLEKCE
+currentJob.getSubsystem() /QSYS.LIB/QUSRWRK.SBSD
+currentJob.getName() QZRCSRVS
+currentJob.getUser() QUSER
+currentJob.getNumber() 088740
+currentJob.getLogingText() *YES
+currentJob.getLoggingCLPrograms() *YES
+currentJob.getInquiryMessageReply() *DFT
+Error: java.nio.charset.MalformedInputException: Input length = 1
+Error: java.nio.charset.MalformedInputException: Input length = 1
+Error: java.nio.charset.MalformedInputException: Input length = 1
+Error: com.ibm.as400.access.ExtendedIllegalArgumentException: ccsid (65536): Parameter value is not valid.
+Error: java.nio.charset.MalformedInputException: Input length = 1
+Error: java.nio.charset.MalformedInputException: Input length = 1
+libList VZUPKA
+libList VZSQLPGM
+libList VZSQL
+libList KOLEKCE
+currentJob.getSubsystem() /QSYS.LIB/QUSRWRK.SBSD
+currentJob.getName() QZRCSRVS
+currentJob.getUser() QUSER
+currentJob.getNumber() 088740
+currentJob.getLogingText() *YES
+currentJob.getLoggingCLPrograms() *YES
+currentJob.getInquiryMessageReply() *DFT
+Error: java.nio.charset.MalformedInputException: Input length = 1
+libList VZUPKA
+libList VZSQLPGM
+libList VZSQL
+libList KOLEKCE
+currentJob.getSubsystem() /QSYS.LIB/QUSRWRK.SBSD
+currentJob.getName() QZRCSRVS
+currentJob.getUser() QUSER
+currentJob.getNumber() 088740
+currentJob.getLogingText() *YES
+currentJob.getLoggingCLPrograms() *YES
+currentJob.getInquiryMessageReply() *DFT
+libList VZUPKA
+libList VZSQLPGM
+libList VZSQL
+libList KOLEKCE
+currentJob.getSubsystem() /QSYS.LIB/QUSRWRK.SBSD
+currentJob.getName() QZRCSRVS
+currentJob.getUser() QUSER
+currentJob.getNumber() 088740
+currentJob.getLogingText() *YES
+currentJob.getLoggingCLPrograms() *YES
+currentJob.getInquiryMessageReply() *DFT
